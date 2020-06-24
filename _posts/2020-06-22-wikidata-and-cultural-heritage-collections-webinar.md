@@ -51,6 +51,7 @@ A Street Near You started as an idea simply to explore and demonstrate the poten
 ### 8. Navino Evans, [Histropedia](http://histropedia.com)
 Linking UNESCO heritage data with Wikidata so it can be visualised, connected with other data about the world, and provide direct access to all available Wikimedia content.
 {% include youtubePlayer.html id="JNvR6ybdabI" %}
+* [Presentation slides](https://docs.google.com/presentation/d/13qDiClURGBjP9MCF9X2eoWxPjea3IHn9atutw8cCx6I/)
 
 ### 9. [Harrison Pim](https://harrisonpim.github.io), [Wellcome Collection](https://wellcomecollection.org), London
 Wellcome Collection is starting to enrich its data pipelines with Wikidata, LCSH, MeSH, etc, and using an underlying graph of connected works, people, and concepts to improve search and discovery.
