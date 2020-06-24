@@ -22,6 +22,8 @@ When GLAM & Education Collide: Exploring the educational potential of Cultural H
 
 ### 3. [Jason Evans](https://en.wikipedia.org/wiki/User:Jason.nlw/National_Wikimedian_at_the_National_Library_of_Wales), Llyfrgell Genedlaethol Cymru/National Library of Wales
 The National Library of Wales has been using Wikidata to explore the benefits of linked open data, from improving access, to data enrichment and round tripping.
+{% include youtubePlayer.html id="90bW-VyMGBU" %}
+* [Presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Jason_Evans_Heritage_connector.pdf)
 
 ### 4. Emma Carroll, [Interactive witchcraft map](https://witches.is.ed.ac.uk/) 
 The wicked wikidata tale of how the 3141 accused witches were placed on the map for the first time.
