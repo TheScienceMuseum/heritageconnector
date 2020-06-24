@@ -4,9 +4,9 @@ title: "Webinar: Wikidata and cultural heritage collections"
 categories: events
 ---
 
-The Science Museum is hosting a free, public webinar on Wikidata and cultural heritage collections. This is the first in a series of convenings as part of the Heritage Connector project.
+On 19 June 2020, the [Science Museum Group](https://sciencemuseumgroup.org.uk) hosted a free, public webinar on Wikidata and cultural heritage collections. This was the first in a series of convenings as part of the [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) project.
 
-The webinar will draw together a set of short case studies from practitioners who have worked in this field to present their work and the opportunities and challenges as they see them.
+The webinar brought together a set of short case studies from practitioners who have worked in this field to present their work and the opportunities and challenges as they saw them.
 
 ## Speakers 
 
@@ -48,4 +48,3 @@ Linking UNESCO heritage data with Wikidata so it can be visualised, connected wi
 
 ### 9. [Harrison Pim](https://harrisonpim.github.io), [Wellcome Collection](https://wellcomecollection.org), London
 Wellcome Collection is starting to enrich its data pipelines with Wikidata, LCSH, MeSH, etc, and using an underlying graph of connected works, people, and concepts to improve search and discovery.
-
