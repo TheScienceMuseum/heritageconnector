@@ -4,7 +4,7 @@ title: "Webinar: Wikidata and cultural heritage collections"
 categories: events
 ---
 
-On 19 June 2020, the [Science Museum Group](https://sciencemuseumgroup.org.uk) hosted a free, public webinar on Wikidata and cultural heritage collections. This was the first in a series of convenings as part of the [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) project.
+On 19 June 2020, the [Science Museum Group](https://sciencemuseumgroup.org.uk) hosted a free, public webinar on [Wikidata](https://www.wikidata.org/) and cultural heritage collections. This was the first in a series of convenings as part of the [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) project.
 
 The webinar brought together a set of short case studies from practitioners who have worked in this field to present their work and the opportunities and challenges as they saw them.
 
