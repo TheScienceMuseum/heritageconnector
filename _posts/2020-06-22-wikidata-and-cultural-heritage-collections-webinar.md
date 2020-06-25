@@ -26,7 +26,7 @@ Llyfrgell Genedlaethol Cymru/National Library of Wales has been using Wikidata t
 * [Presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Jason_Evans_Heritage_connector.pdf)
 
 ### 4. Emma Carroll, [Interactive witchcraft map](https://witches.is.ed.ac.uk/) 
-The wicked wikidata tale of how the 3,141 accused witches were placed on the map for the first time.
+The wicked Wikidata tale of how the 3,141 accused witches were placed on the map for the first time.
 {% include youtubePlayer.html id="hOldL0NuGUI" %}
 
 ### 5. [Martin Poulter](https://en.wikipedia.org/wiki/User:MartinPoulter), Wikimedia consultant
