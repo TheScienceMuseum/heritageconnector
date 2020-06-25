@@ -15,7 +15,7 @@ Introduction and [Mentimeter](https://www.mentimeter.com) survey of delegates.
 {% include youtubePlayer.html id="6oCdGgGkkrg" %}
 * [Download full Mentimeter survey (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/Heritage_Connector_Webinar_1_Mentimeter.pdf)
 
-### 2. [Shani Evenstein Sigalov](https://wikimediafoundation.org/profile/shani-evenstein-sigalov/), educator, researcher and Free Knowledge advocate
+### 2. [Shani Evenstein Sigalov](https://wikimediafoundation.org/profile/shani-evenstein-sigalov/) Educator, researcher and Free Knowledge advocate
 When GLAM & Education Collide: Exploring the educational potential of Cultural Heritage in Wikidata.
 {% include youtubePlayer.html id="gx3tpOlMo80" %}
 * [Presentation slides CC BY-SA](https://commons.wikimedia.org/wiki/File:Heritage_Connector_Webinar_-_GLAM,_EDU_and_Wikidata.pdf)
