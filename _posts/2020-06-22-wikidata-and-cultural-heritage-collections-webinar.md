@@ -57,3 +57,5 @@ Linking UNESCO heritage data with Wikidata so it can be visualised, connected wi
 
 ### 9. [Harrison Pim](https://harrisonpim.github.io), [Wellcome Collection](https://wellcomecollection.org), London
 Wellcome Collection is starting to enrich its data pipelines with Wikidata, LCSH, MeSH, etc, and using an underlying graph of connected works, people, and concepts to improve search and discovery.
+{% include youtubePlayer.html id="WtwsmtwnhQw" %}
+* [Presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Harrison_Pim_science_museum.pdf)
