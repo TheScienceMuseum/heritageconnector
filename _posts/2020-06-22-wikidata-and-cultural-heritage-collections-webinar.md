@@ -15,13 +15,13 @@ Introduction and [Mentimeter](https://www.mentimeter.com) survey of delegates.
 {% include youtubePlayer.html id="6oCdGgGkkrg" %}
 * [Download full Mentimeter survey (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/Heritage_Connector_Webinar_1_Mentimeter.pdf)
 
-### 2. [Shani Evenstein Sigalov](https://wikimediafoundation.org/profile/shani-evenstein-sigalov/), Wikidata as a learning platform
+### 2. [Shani Evenstein Sigalov](https://wikimediafoundation.org/profile/shani-evenstein-sigalov/), educator, researcher and Free Knowledge advocate
 When GLAM & Education Collide: Exploring the educational potential of Cultural Heritage in Wikidata.
 {% include youtubePlayer.html id="gx3tpOlMo80" %}
 * [Presentation slides CC BY-SA](https://commons.wikimedia.org/wiki/File:Heritage_Connector_Webinar_-_GLAM,_EDU_and_Wikidata.pdf)
 
 ### 3. [Jason Evans](https://en.wikipedia.org/wiki/User:Jason.nlw/National_Wikimedian_at_the_National_Library_of_Wales), Llyfrgell Genedlaethol Cymru/National Library of Wales
-The National Library of Wales has been using Wikidata to explore the benefits of linked open data, from improving access, to data enrichment and round tripping.
+Llyfrgell Genedlaethol Cymru/National Library of Wales has been using Wikidata to explore the benefits of linked open data, from improving access, to data enrichment and round tripping.
 {% include youtubePlayer.html id="90bW-VyMGBU" %}
 * [Presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Jason_Evans_Heritage_connector.pdf)
 
