@@ -40,7 +40,7 @@ Using Wikidata to create and visualise pathways that join up collections within 
 * [Wikidata queries](https://www.wikidata.org/wiki/User:MartinPoulter/queries)
 
 ### 6. [Jane Winters](https://research.sas.ac.uk/search/staff/126/dr-jane-winters/), School of Advanced Study, University of London
-Jane will be discussing some preliminary findings from a literature review exploring the use of Linked Open Data by museums, undertaken as part of the Heritage Connector project.
+Jane discusses some preliminary findings from a literature review exploring the use of Linked Open Data by museums, undertaken as part of the Heritage Connector project.
 {% include youtubePlayer.html id="fBtWrhiSxUw" %}
 * [Presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Jane_Winters_Heritage_Connector.pptx)
 * [Project Zotero library](https://www.zotero.org/groups/2439363/heritage_connector)
