@@ -55,3 +55,6 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ 
+ # URL clean
+permalink: pretty
