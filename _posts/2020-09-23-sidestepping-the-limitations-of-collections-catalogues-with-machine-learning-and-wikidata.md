@@ -81,7 +81,7 @@ _[Screenshot](https://www.slideshare.net/JennieChoi2/tags-art-and-ai-oh-my/41) o
 
 ## Heritage Connector 
 
-In Heritage Connector, we’re exploring how to realise the areas of potential outlined above using machine learning techniques on the existing collection(s) catalogues and other datasets to build a knowledge graph. This knowledge graph will be linked to Wikidata. Wikidata is the free, open, linked, multilingual and structured database which underpins Wikipedia but which is also a tool in its own right. Today Wikidata contains over 89 million items structured as a linked data and includes references to dozens of external data points in cultural heritage collections. 
+In Heritage Connector, we’re exploring how to realise the areas of potential outlined above using machine learning techniques on the existing collection(s) catalogues and other datasets to build a knowledge graph. This knowledge graph will be linked to Wikidata. [Wikidata](https://www.wikidata.org/wiki/Wikidata:Introduction) is the free, open, linked, multilingual and structured database which underpins Wikipedia but which is also a tool in its own right. Today, Wikidata contains over [89 million items](https://www.wikidata.org/wiki/Wikidata:Statistics) structured as a linked data and includes references to dozens of external data points in cultural heritage collections. 
 
 Four months into the project and among the emerging areas of potential that we are seeing are:
 
