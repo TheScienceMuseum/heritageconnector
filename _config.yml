@@ -3,7 +3,7 @@ author:
   name: 
   email: 
 description: > # this means to ignore newlines until "show_excerpts:"
-  Transforming text into data to extract meaning and make connections. Science Museum Group.
+  Transforming text into data to extract meaning and make connections
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
