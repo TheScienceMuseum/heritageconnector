@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sidestepping the limitations of collections catalogues with machine learning and Wikidata"
+title: "Sidestepping the limitations of collection catalogues with machine learning and Wikidata"
 categories: post
 ---
 
