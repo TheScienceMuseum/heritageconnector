@@ -101,7 +101,7 @@ The resulting audience segmentation for the Met’s collection defines three cor
 
 The 2017 paper [Europeana: What Users Search For and Why](http://eprints.whiterose.ac.uk/120085/ ) by Paul Clough, Timothy Hill, Monica Lestari Paramita, and Paula Goodale reviewed searching behaviour on [Europeana](https://www.europeana.eu/).  They identified the core audiences as academics (30.4%), cultural heritage enthusiasts (24.6%), cultural heritage professionals (18.3%), students (13%), school teachers (4.6%) and others (8.8%).
 
-![alt_text](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-for-brief-history-post/image10.jpg "image_tooltip")
+![alt_text](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-for-brief-history-post/image10.png "image_tooltip")
 
 The searching behaviour of these users is categorised as: general topical (47.08%), subject-specific (24.58%), specific item (11.25%), by named author (7.08%), and browse/explore (7.08%.
 
@@ -115,7 +115,7 @@ The motivations for searching include: create new work (37.1%), personal interes
 
 ## 2019
 
-Follow up [research in 2019 by Elena Villaespesa and Tankha Madhav](https://mw19.mwconf.org/paper/the-mets-object-page-towards-a-new-synthesis-of-scholarship-and-storytelling/) focused on the proportions of these audiences at the Met across desktop and mobile and web page features different audiences are looking for.
+Follow up [research in 2019 by Elena Villaespesa, Bora Shehu and Tankha Madhav](https://mw19.mwconf.org/paper/the-mets-object-page-towards-a-new-synthesis-of-scholarship-and-storytelling/) focused on the proportions of these audiences at the Met across desktop and mobile and web page features different audiences are looking for.
 
 ![alt_text](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-for-brief-history-post/image13.png "image_tooltip")
 
