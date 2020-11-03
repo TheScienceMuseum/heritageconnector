@@ -4,8 +4,6 @@ title: "A brief history of research into museums’ online collection audiences"
 categories: post
 ---
 
-# A brief history of research into museums’ online collection audiences
-
 John Stack
 
 ## Introduction 
