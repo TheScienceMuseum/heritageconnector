@@ -27,7 +27,7 @@ If you're familiar with knowledge graphs, feel free to skip to [how we're creati
 
 Knowledge graphs were popularised by Google in their 2012 blog post [Introducing the Knowledge Graph: things, not strings](https://blog.google/products/search/introducing-knowledge-graph-things-not/), in which they described how data structured in a graph (rather than a table) can help users get better responses to their queries, retrieve context around a specific object, and even discover new serendipitous connections between objects. These things can be achieved using Knowledge Graphs as they let you create new links (*relations*) between items (*entities*) without worrying about creating specific columns or tables to hold information.
 
-![Representation of Steve Jobs' legacy in complex relational database format (left) and simpler knowledge graph format (right)](/../../post_files/charts-knowledge-graphs-ml-post/1-relational-db-vs-knowledge-graph.png)
+![Representation of Steve Jobs' legacy in complex relational database format (left) and simpler knowledge graph format (right)](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/1-relational-db-vs-knowledge-graph.png)
 <span class="caption">Representation of Steve Jobs' legacy in complex relational database format (left) and simpler knowledge graph format (right)</span>
 
 The knowledge graph is what we refer to when we talk about the 'Heritage Connector' itself: one place where all connections (from 13 data sources and counting) between the internal tables that make up our digital collection live, and where we can add new entities and relations as we discover them.
@@ -40,7 +40,7 @@ To make our graph interoperable with other data sources we're building this grap
 2. Providing useful information, where we can [^1], when these entities are looked up
 3. Refer to other things, external to the collection, by their HTTP URIs
 
-![Visualisation of text, triples, and linked data.](/../../post_files/charts-knowledge-graphs-ml-post/2-triples.png)
+![Visualisation of text, triples, and linked data.](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/2-triples.png)
 <span class="caption">Comparing raw text, semantic triples and triples that meet Linked Data requirements</span>
 
 ## Creating New Links
@@ -55,7 +55,7 @@ It's important to note at this point that we're not aiming to link each and ever
 
 ### Easy Wins (Existing IDs)
 
-![Steps in the process to generate Wikidata links from existing IDs and URLs found in the Collection.](/../../post_files/charts-knowledge-graphs-ml-post/3-easy-wins.png)
+![Steps in the process to generate Wikidata links from existing IDs and URLs found in the Collection.](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/3-easy-wins.png)
 <span class="caption">Steps in the process to generate Wikidata links from existing IDs and URLs found in the Collection.</span>
 
 Around 10,000 records [^2] in the SMG collection have had IDs or URLs from databases like [Oxford Dictionary of National Biography](https://www.oxforddnb.com/), [Grace's Guide](https://www.gracesguide.co.uk/Main_Page) or Wikipedia added to them in the museum’s collection management system (Mimsy). Wikidata holds references to external databases using External IDs [^3], making it straightforward to convert an external reference to a Wikidata ID. For example, [here's the SPARQL query](https://query.wikidata.org/#SELECT%20%3Fitem%20%3FitemLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP3074%20%22Isambard_Kingdom_Brunel%22.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%0A%20%20%7D%0A%7D) showing the Wikidata page that has the Grace's Guide ID `Isambard_Kingdom_Brunel`.
@@ -68,7 +68,7 @@ Broadly speaking, the disambiguator is a tool which learns to distinguish whethe
 
 There are a few deep learning [^4] based methods [^5] [^6] which use tools like knowledge graph and word embeddings to perform this disambiguation. But they tend to require large numbers of data to perform well (in the order of thousands), and knowledge graph embeddings require a graph representation which captures some 'structure' of the information (which we didn't have, due to thin records). For this reason we chose to use a *classical machine learning* method, which requires much less data and computational power.
 
-![Illustration of Disambiguation process](/../../post_files/charts-knowledge-graphs-ml-post/4-disambiguation.png)
+![Illustration of Disambiguation process](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/4-disambiguation.png)
 <span class="caption">Illustration of Disambiguation process. Colours below refer to the coloured blocks on this figure.</span>
 
 The disambiguator works as above, with the steps *Candidate Generation* and *Classification* as follows.
@@ -89,7 +89,7 @@ NER is a natural language processing (NLP) technique which aims to find words (*
 
 In the example below NER has been run on the SMG description of the Difference Engine No.2 to detect people, dates, organisations and works of art.
 
-![/../../post_files/charts-knowledge-graphs-ml-post/5-ner.png](/../../post_files/charts-knowledge-graphs-ml-post/5-ner.png)
+![/../../post_files/charts-knowledge-graphs-ml-post/5-ner.png](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/5-ner.png)
 <span class="caption">Example of Named Entity Recognition on the SMG description for Difference Engine No. 2</span>
 
 By training an NER model on types of entities that we'd want to add to the Heritage Connector, for example people, places, historical events or movements, we have a method to add new typed entities to the knowledge graph from unstructured text.
