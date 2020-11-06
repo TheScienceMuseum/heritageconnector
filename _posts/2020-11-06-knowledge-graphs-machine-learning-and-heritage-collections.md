@@ -75,7 +75,7 @@ The disambiguator works as above, with the steps *Candidate Generation* and *Cla
 
 **Candidate Generation**
 
-1. Select an <span style="color:#67afa1">SMG record</span> to find a <span style="color:#e08841">Wikidata match</span> for
+1. Select an <span style="color:#67afa1">SMG record</span> to find a Wikidata match for
 2. Search the label/title of this record on Wikidata [^7] returning the <span style="color:#e08841">*N* top matches</span>, where *N* is a value that has been chosen beforehand (we chose 20).
 
 **Classification**
