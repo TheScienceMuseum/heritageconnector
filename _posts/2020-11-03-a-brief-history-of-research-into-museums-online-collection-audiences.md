@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A brief history of research into museums’ online collection audiences"
+title: "A Brief History of Research into Museums’ Online Collection Audiences"
 categories: post
 ---
 
