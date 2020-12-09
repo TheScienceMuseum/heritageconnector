@@ -14,7 +14,7 @@ Since the late 1990s, increasing volumes of cultural heritage collection objects
 
 1. knowing about the collection’s existence;
 2. understanding that it may contain relevant contents;
-3. knowing of that content being available online;
+3. knowing that content is available online;
 4. navigating the common pitfalls of text search: using search terms that align with the terms in the collection catalogue, having the desired content appear near the top of the results, potentially making multiple searches;
 5. being able to see the relevance of the content to the search;
 6. ideally, being able to navigate from that content to related content.
