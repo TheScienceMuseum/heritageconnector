@@ -22,8 +22,8 @@ When GLAM & Education Collide: Exploring the educational potential of Cultural H
 
 ### 3. [Jason Evans](https://en.wikipedia.org/wiki/User:Jason.nlw/National_Wikimedian_at_the_National_Library_of_Wales), Llyfrgell Genedlaethol Cymru/National Library of Wales
 Llyfrgell Genedlaethol Cymru/National Library of Wales has been using Wikidata to explore the benefits of linked open data, from improving access, to data enrichment and round tripping.
-{% include youtubePlayer.html id="gbTjvaivUm8" iframetitle="Video of Jason Evans' talk" %}
-* [Jason Evans' presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Jason_Evans_Heritage_connector.pdf)
+{% include youtubePlayer.html id="gbTjvaivUm8" iframetitle="Video of Jason Evans's talk" %}
+* [Jason Evans's presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Jason_Evans_Heritage_connector.pdf)
 
 ### 4. Emma Carroll, [Interactive witchcraft map](https://witches.is.ed.ac.uk/) 
 The wicked Wikidata tale of how the 3,141 accused witches were placed on the map for the first time.
@@ -41,8 +41,8 @@ Using Wikidata to create and visualise pathways that join up collections within 
 
 ### 6. [Jane Winters](https://research.sas.ac.uk/search/staff/126/dr-jane-winters/), School of Advanced Study, University of London
 Jane discusses some preliminary findings from a literature review exploring the use of Linked Open Data by museums, undertaken as part of the Heritage Connector project.
-{% include youtubePlayer.html id="-pw-WFIvQmI" iframetitle="Video of Jane Winters' talk" %}
-* [Jane Winters' presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Jane_Winters_Heritage_Connector.pptx)
+{% include youtubePlayer.html id="-pw-WFIvQmI" iframetitle="Video of Jane Winters's talk" %}
+* [Jane Winters's presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Jane_Winters_Heritage_Connector.pptx)
 * [Project Zotero library](https://www.zotero.org/groups/2439363/heritage_connector)
 
 ### 7. [James Morley](http://www.catchingtherain.com), [A Street Near You](https://astreetnearyou.org)
@@ -52,8 +52,8 @@ A Street Near You started as an idea simply to explore and demonstrate the poten
 
 ### 8. Navino Evans, [Histropedia](http://histropedia.com)
 Linking UNESCO heritage data with Wikidata so it can be visualised, connected with other data about the world, and provide direct access to all available Wikimedia content.
-{% include youtubePlayer.html id="fW2ShS_tKoI" iframetitle="Video of Navino Evans' talk" %}
-* [Navino Evans' presentation slides](https://docs.google.com/presentation/d/13qDiClURGBjP9MCF9X2eoWxPjea3IHn9atutw8cCx6I/)
+{% include youtubePlayer.html id="fW2ShS_tKoI" iframetitle="Video of Navino Evans's talk" %}
+* [Navino Evans's presentation slides](https://docs.google.com/presentation/d/13qDiClURGBjP9MCF9X2eoWxPjea3IHn9atutw8cCx6I/)
 
 ### 9. [Harrison Pim](https://harrisonpim.github.io), [Wellcome Collection](https://wellcomecollection.org), London
 Wellcome Collection is starting to enrich its data pipelines with Wikidata, LCSH, MeSH, etc, and using an underlying graph of connected works, people, and concepts to improve search and discovery.
