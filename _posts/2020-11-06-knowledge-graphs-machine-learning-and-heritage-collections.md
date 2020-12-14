@@ -89,7 +89,7 @@ NER is a natural language processing (NLP) technique which aims to find words (*
 
 In the example below NER has been run on the SMG description of the Difference Engine No.2 to detect people, dates, organisations and works of art.
 
-![/../../post_files/charts-knowledge-graphs-ml-post/5-ner.png](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/5-ner.png)
+![Illustration of Named Entity Recognition highlighted in text](https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/5-ner.png)
 <span class="caption">Example of Named Entity Recognition on the SMG description for Difference Engine No. 2</span>
 
 By training an NER model on types of entities that we'd want to add to the Heritage Connector, for example people, places, historical events or movements, we have a method to add new typed entities to the knowledge graph from unstructured text.
