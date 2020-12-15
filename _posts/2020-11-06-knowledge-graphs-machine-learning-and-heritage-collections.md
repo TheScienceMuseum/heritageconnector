@@ -4,7 +4,7 @@ title: "Knowledge Graphs, Machine Learning and Heritage Collections"
 categories: post
 ---
 
-Kalyan Dutia
+**Kalyan Dutia**
 
 As part of the [Heritage Connector project](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) we're seeking to create new links between collection items and collections at scale by making use of existing metadata and mining structured data from text, as well as using Wikidata as a centralised point of connection between collections. These challenges require a set of technologies beyond those found in existing collections management systems. This blog post describes exactly which technologies we're using and how we're using them.
 
