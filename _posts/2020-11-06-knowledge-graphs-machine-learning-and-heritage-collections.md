@@ -75,13 +75,13 @@ The disambiguator works as above, with the steps *Candidate Generation* and *Cla
 
 **Candidate Generation**
 
-1. Select an <span style="color:#67afa1">SMG record</span> to find a Wikidata match for
-2. Search the label/title of this record on Wikidata [^7] returning the <span style="color:#e08841">*N* top matches</span>, where *N* is a value that has been chosen beforehand (we chose 20).
+1. Select an <span style="color:#437f72">SMG record</span> to find a Wikidata match for
+2. Search the label/title of this record on Wikidata [^7] returning the <span style="color:#AB5C1C">*N* top matches</span>, where *N* is a value that has been chosen beforehand (we chose 20).
 
 **Classification**
 
-1. Compare each field in the <span style="color:#67afa1">SMG record</span> to its corresponding field in each <span style="color:#e08841">Wikidata record</span> using the Heritage Connector's similarity function which can compare strings, numbers, dates, places and entity types. This will produce *N* vectors, each containing *F* feature similarities between 0 and 1.
-2. Run the vectors through a machine learning classifier, for either training or inference. A training run will produce a disambiguator capable of operating on a dataset. An inference run will predict whether a pair of unseen records represent the same real-world entity, returning a <span style="color:#3672a0">confidence value</span> for the link.
+1. Compare each field in the <span style="color:#437f72">SMG record</span> to its corresponding field in each <span style="color:#AB5C1C">Wikidata record</span> using the Heritage Connector's similarity function which can compare strings, numbers, dates, places and entity types. This will produce *N* vectors, each containing *F* feature similarities between 0 and 1.
+2. Run the vectors through a machine learning classifier, for either training or inference. A training run will produce a disambiguator capable of operating on a dataset. An inference run will predict whether a pair of unseen records represent the same real-world entity, returning a <span style="color:#397AAC">confidence value</span> for the link.
 
 ### Named Entity Recognition (NER)
 
@@ -98,7 +98,7 @@ Robustly extracting relations between entities is harder: existing methods for r
 
 ### Results, Lessons and Next Steps
 
-Currently (Nov 20) in the project we've just finished building mechanisms to load in tabular data to a knowledge graph, load links from external IDs, and the disambiguator. We've tested the disambiguator on people, organisations and objects.
+Currently (November 2020) in the project we've just finished building mechanisms to load in tabular data to a knowledge graph, load links from external IDs, and the disambiguator. We've tested the disambiguator on people, organisations and objects.
 
 Some of the things we've learnt so far are:
 
@@ -121,7 +121,7 @@ And next, we plan to:
 
 [^2]: Mainly people and organisations, not objects. Disambiguating objects is the main challenge we'll have due to the broadness of the category 'object' and our lack of training data.
 
-[^3]: We've created one for the Science Museum Group for this project [here](https://www.wikidata.org/wiki/Property:P8694), and would recommend the same practice for all heritage organisations looking to link to Wikidata. An example of its use is [on this Hindu Astrolabe](https://www.wikidata.org/wiki/Q58952378).
+[^3]: We've created [one for the Science Museum Group for this project](https://www.wikidata.org/wiki/Property:P8694), and would recommend the same practice for all heritage organisations looking to link to Wikidata. An example of its use is [on this Hindu Astrolabe](https://www.wikidata.org/wiki/Q58952378).
 
 [^4]: A class of machine learning methods which use 'deep' neural networks with multiple layers. See [Wikipedia](https://en.wikipedia.org/wiki/Deep_learning)
 
