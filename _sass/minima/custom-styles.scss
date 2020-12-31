@@ -18,5 +18,7 @@ body {font-size: 1.3rem;}
 h1, h2 {text-transform: uppercase; font-weight: bold;}
 iframe { border: none;}
 .post img {max-width: 100%; height: auto;}
-.embed-youtube {position: relative;}
+.embed-youtube {padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;}
 .embed-youtube iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
