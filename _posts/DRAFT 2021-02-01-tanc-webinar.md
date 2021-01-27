@@ -12,11 +12,11 @@ categories: events
 
 The [Towards a National Collection](https://www.nationalcollection.org.uk) directorate is pleased to announce the presentation of interim findings from its [Foundation Projects](https://www.nationalcollection.org.uk/projects).
 
-The second instalment of our Foundation Project series features speakers John Stack (Heritage Connector, The Science Museum) and Lora Angelova (Deep Discoveries, The National Archives).
+The second instalment of our Foundation Project webinar series features speakers John Stack (Heritage Connector, Science Museum Group) and Lora Angelova (Deep Discoveries, The National Archives).
 
 # Heritage Connector (John Stack)
 
-Project Investigators: Science Museum Group, Victoria & Albert Museum and School of Advanced Study, University of London
+Project Investigators: Science Museum Group, Victoria and Albert Museum, and School of Advanced Study, University of London
 
 [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) explores three technologies (AI, linked open data and knowledge graphs) that together have the potential to provide a step change in access and discoverability, research and public engagement by augmenting traditional catalogue data and associated keyword search through generation of a vast number of interlinked resources and content.
 
@@ -24,8 +24,8 @@ Early findings around the complexities and technical challenges of applying arti
 
 # Deep Discoveries (Lora Angelova)
 
-Project Investigators: The National Archives, University of Surrey, Victoria and Albert Museum and Royal Botanic Garden Edinburgh
-Project Partners: The Gainsborough Weaving Company, The Museum of Domestic Design and Architecture and Sanderson Design Archive
+Project Investigators: The National Archives, University of Surrey, Victoria and Albert Museum, and Royal Botanic Garden Edinburgh
+Project Partners: The Gainsborough Weaving Company, The Museum of Domestic Design and Architecture, and Sanderson Design Archive
 
 The [Deep Discoveries](https://tanc-ahrc.github.io/DeepDiscoveries/) project is carrying out research into the application of computer vision search tools for enhancing the ability of general audiences and specialist researchers to discover visual collections in new and/or more effective ways.
 
