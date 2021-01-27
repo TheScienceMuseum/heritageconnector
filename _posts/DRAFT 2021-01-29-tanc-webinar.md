@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webinar: Towards a National Collections Foundation Projects: Heritage Connectors and Deep Discoveries"
+title: "Webinar: Towards a National Collections Foundation Projects: Heritage Connector and Deep Discoveries"
 categories: events
 ---
 
