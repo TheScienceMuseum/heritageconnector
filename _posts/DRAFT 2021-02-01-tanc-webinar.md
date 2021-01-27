@@ -8,7 +8,7 @@ categories: events
 
 22 February 2021, 14:00-15:30 GMT
 
-[Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connectors-deep-discoveries-tickets-138584262259) 
+[Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
 
 The [Towards a National Collection](https://www.nationalcollection.org.uk) directorate is pleased to announce the presentation of interim findings from its Foundation Projects.
 
@@ -45,4 +45,4 @@ Early findings around search algorithm development, user-centered scenarios in s
 
 15:30 Webinar ends
 
-[Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connectors-deep-discoveries-tickets-138584262259) 
+[Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
