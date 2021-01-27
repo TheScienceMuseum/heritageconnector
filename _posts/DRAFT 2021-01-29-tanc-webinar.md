@@ -6,6 +6,8 @@ categories: events
 
 # Webinar: Foundation Projects: Heritage Connectors and Deep Discoveries
 
+22 February 2021, 14:00-15:30 GMT
+
 [Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connectors-deep-discoveries-tickets-138584262259) 
 
 The [Towards a National Collection](https://www.nationalcollection.org.uk) directorate is pleased to announce the presentation of interim findings from its Foundation Projects.
@@ -29,11 +31,9 @@ The Deep Discoveries project is carrying out research into the application of co
 
 Early findings around search algorithm development, user-centered scenarios in search and discovery, and the front-end design of a prototype web-based search app will be discussed.
 
-## Date
+## Programme 
 
 22 February 2021, 14:00-15:30 GMT
-
-## Programme
 
 14:00 Welcome and house rules (Rebecca Bailey, TaNC Director)
 
