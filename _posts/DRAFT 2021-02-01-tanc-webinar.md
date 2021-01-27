@@ -10,7 +10,7 @@ categories: events
 
 [Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
 
-The [Towards a National Collection](https://www.nationalcollection.org.uk) directorate is pleased to announce the presentation of interim findings from its Foundation Projects.
+The [Towards a National Collection](https://www.nationalcollection.org.uk) directorate is pleased to announce the presentation of interim findings from its [Foundation Projects](https://www.nationalcollection.org.uk/projects).
 
 The second instalment of our Foundation Project series features speakers John Stack (Heritage Connector, The Science Museum) and Lora Angelova (Deep Discoveries, The National Archives).
 
