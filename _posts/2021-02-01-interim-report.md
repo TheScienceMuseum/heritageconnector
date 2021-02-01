@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Project Interim Report"
+title: "Heritage Connector Interim Report"
 categories: post
 ---
-
-# Heritage Connector Interim Report
 
 The [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) project's interim report is now [published on the Towards a National Collection website](https://www.nationalcollection.org.uk/Interim).
 
