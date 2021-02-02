@@ -35,7 +35,7 @@ Early findings around search algorithm development, user-centered scenarios in s
 
 - 14:00 Welcome and house rules (Rebecca Bailey, TaNC Director)
 - 14:10 Heritage Connector (John Stack)
-- 14:40 Deep Doscoveries (Lora Angelova)
+- 14:40 Deep Discoveries (Lora Angelova)
 - 15:10 Webinar Q&A
 - 15:30 Webinar ends
 
