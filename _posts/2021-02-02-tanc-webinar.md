@@ -4,8 +4,6 @@ title: "Webinar: Towards a National Collections Foundation Projects: Heritage Co
 categories: events
 ---
 
-# Webinar: Foundation Projects: Heritage Connector and Deep Discoveries 22 February 2021
-
 22 February 2021, 14:00-15:30 GMT
 
 [Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
