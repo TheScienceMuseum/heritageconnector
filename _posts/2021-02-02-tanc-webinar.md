@@ -4,13 +4,13 @@ title: "Webinar: Heritage Connector and Deep Discoveries"
 categories: events
 ---
 
-Webinar date and time: 22 February 2021, 14:00-15:30 GMT
+Webinar date and time: 14:00–15:30 GMT 22 February 2021
 
 [Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
 
 The [Towards a National Collection](https://www.nationalcollection.org.uk) directorate is pleased to announce the presentation of interim findings from its [Foundation Projects](https://www.nationalcollection.org.uk/projects).
 
-The second instalment of our Foundation Project webinar series features speakers John Stack (Heritage Connector, Science Museum Group) and Lora Angelova (Deep Discoveries, The National Archives).
+The second instalment of our Foundation Project webinar series features speakers [John Stack](https://st-ck.net) (Heritage Connector, Science Museum Group) and Lora Angelova (Deep Discoveries, The National Archives).
 
 ## Heritage Connector (John Stack)
 
@@ -31,16 +31,12 @@ Early findings around search algorithm development, user-centered scenarios in s
 
 ## Programme 
 
-22 February 2021, 14:00-15:30 GMT
+22 February 2021, 14:00–15:30 GMT
 
-14:00 Welcome and house rules (Rebecca Bailey, TaNC Director)
-
-14:10 Heritage Connector (John Stack)
-
-14:40 Deep Doscoveries (Lora Angelova)
-
-15:10 Webinar Q&A
-
-15:30 Webinar ends
+- 14:00 Welcome and house rules (Rebecca Bailey, TaNC Director)
+- 14:10 Heritage Connector (John Stack)
+- 14:40 Deep Doscoveries (Lora Angelova)
+- 15:10 Webinar Q&A
+- 15:30 Webinar ends
 
 [Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
