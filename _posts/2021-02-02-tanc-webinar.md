@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webinar: Towards a National Collections Foundation Projects: Heritage Connector and Deep Discoveries"
+title: "Webinar: Heritage Connector and Deep Discoveries"
 categories: events
 ---
 
@@ -12,7 +12,7 @@ The [Towards a National Collection](https://www.nationalcollection.org.uk) direc
 
 The second instalment of our Foundation Project webinar series features speakers John Stack (Heritage Connector, Science Museum Group) and Lora Angelova (Deep Discoveries, The National Archives).
 
-# Heritage Connector (John Stack)
+## Heritage Connector (John Stack)
 
 Project Investigators: Science Museum Group, Victoria and Albert Museum, and School of Advanced Study, University of London
 
@@ -20,7 +20,7 @@ Project Investigators: Science Museum Group, Victoria and Albert Museum, and Sch
 
 Early findings around the complexities and technical challenges of applying artificial intelligence techniques to cultural heritage collection catalogues will be shared.
 
-# Deep Discoveries (Lora Angelova)
+## Deep Discoveries (Lora Angelova)
 
 Project Investigators: The National Archives, University of Surrey, Victoria and Albert Museum, and Royal Botanic Garden Edinburgh
 Project Partners: The Gainsborough Weaving Company, The Museum of Domestic Design and Architecture, and Sanderson Design Archive
