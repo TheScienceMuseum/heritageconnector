@@ -4,7 +4,7 @@ title: "Webinar: Heritage Connector and Deep Discoveries"
 categories: events
 ---
 
-22 February 2021, 14:00-15:30 GMT
+Webinar date and time: 22 February 2021, 14:00-15:30 GMT
 
 [Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
 
