@@ -8,4 +8,4 @@ On Monday 6 April 2020, Heritage Connector was presented at a [webinar](https://
 
 The Heritage Connector [slides and video recording](https://bl.iro.bl.uk/work/14d713d7-72d3-4f60-8583-91669758ab41) are available on the British Library's Research Repository: [https://doi.org/10.23636/1174]( https://doi.org/10.23636/1174).
 
-{% include youtubePlayer.html id="-GNFBuFDcYc" iframetitle="Video of Heritage Connector Introduction talk" %}
+{% include youtubePlayer.html id="-GNFBuFDcYc" iframetitle="Video of Heritage Connector Introduction Talk" %}
