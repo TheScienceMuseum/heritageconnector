@@ -14,3 +14,4 @@ Below is a video recording of Kalyan's talk from the session. The [full meeting 
 
 {% include youtubePlayer.html id="BafVMLgcaBA" iframetitle="Video of Heritage Connector AI4LAM Talk" %}
 
+[Download presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Kalyan_Dutia_ai4lam_slides_160221.pdf)
