@@ -6,8 +6,6 @@ categories: events
 
 Webinar date and time: 14:00–15:30 GMT, 22 February 2021
 
-[Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
-
 The [Towards a National Collection](https://www.nationalcollection.org.uk) directorate is pleased to announce the presentation of interim findings from its [Foundation Projects](https://www.nationalcollection.org.uk/projects).
 
 The second instalment of our Foundation Project webinar series features speakers [John Stack](https://st-ck.net) (Heritage Connector, Science Museum Group) and Lora Angelova (Deep Discoveries, The National Archives).
@@ -39,4 +37,10 @@ Early findings around search algorithm development, user-centered scenarios in s
 - 15:10 Webinar Q&A
 - 15:30 Webinar ends
 
-[Book tickets](https://www.eventbrite.co.uk/e/foundation-projects-heritage-connector-deep-discoveries-tickets-138584262259) 
+## Video Recording
+
+Below is a video recording of Johns’s talk from the session. The [full meeting recording](https://www.youtube.com/watch?v=rE1crHZCRd0) is available.
+
+{% include youtubePlayer.html id="ER6H1Tzp08c" iframetitle="Video of Heritage Connector Webinar Talk" %}
+
+ [Download presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/Heritage_Connector_TaNC_Webinar_22_February_2021.pdf)
