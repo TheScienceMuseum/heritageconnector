@@ -39,7 +39,7 @@ Early findings around search algorithm development, user-centered scenarios in s
 
 ## Video Recording
 
-Below is a video recording of Johns’s talk from the session. The [full meeting recording including Q&A](https://www.youtube.com/watch?v=rE1crHZCRd0) is available.
+Below is a video recording of John’s talk from the session. The [full meeting recording including Q&A](https://www.youtube.com/watch?v=rE1crHZCRd0) is available.
 
 {% include youtubePlayer.html id="ER6H1Tzp08c" iframetitle="Video of Heritage Connector Webinar Talk" %}
 
