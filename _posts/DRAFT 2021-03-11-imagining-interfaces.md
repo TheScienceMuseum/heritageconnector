@@ -8,7 +8,7 @@ Rhiannon Lewis and John Stack
 
 ## Introduction 
 
-The [Heritage Connector project](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) explores how [AI-generated knowledge graphs](https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/) can facilitate new forms of exploration, discovery and research for digitised cultural heritage collections. As covered in [our previous blog post](https://thesciencemuseum.github.io/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/), all collection catalogue data: \
+The [Heritage Connector project](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) explores how [AI-generated knowledge graphs](https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/) can facilitate new forms of exploration, discovery and research for digitised cultural heritage collections. As covered in [our previous blog post](https://thesciencemuseum.github.io/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/), all collection catalogue data: 
 
 *   is inherently reductive;
 *   is uneven, incomplete and forever a work in progress;
