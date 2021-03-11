@@ -155,6 +155,7 @@ Clustering of objects visually allows overviews of subjects, to see connections 
 When exploring a moment in history or in a movement, an interface that allows for thematic entry points is more valuable than an object-centred search function. Furthermore, connecting collections to Wikidata allows for things to be associated with events and movements where those are not (usually) held within collections management systems. Designing an interface using the Heritage Connector knowledge graph allows for the collection to be navigated through thematic entry points, defined by and responsive to user’s interests, research needs or even whim. 
 
 _Example: [Wien Museum: Online Sammlung: Suggestions](https://sammlung.wienmuseum.at/en/suggestions/)_
+
 _Example: [Every noise at once](http://everynoise.com/engenremap.html)_
 
 ### 6. Rich onward journeys
@@ -164,7 +165,9 @@ At the object level, there is an opportunity to use the knowledge graph to provi
 Use of Wikidata as a way of linking to related material and surfacing related content is most widely known through the Google Knowledge Panel. The Knowledge Panel is the right-hand panel on Google Search results pages that provides headline information for a given search which frequently draws on Wikidata and Wikipedia for its content. However, there are [problems with attribution](https://en.wikipedia.org/wiki/Google_Knowledge_Graph#Lack_of_source_attribution) identified with the Knowledge Panel’s information, and such easy access to headline information may even hinder onward journeys. Knowledge panels surfacing collections information from third-party resources may nonetheless provide valuable context. 
 
 _Example: Google Search Knowledge Panel_
+
 _Example: [Royal Academy of Art: Art and Artists](https://www.royalacademy.org.uk/art-artists#explore-more)_
+
 _Example: [CONTENTdm Linked Data Pilot Explorer](https://www.oclc.org/research/publications/2021/oclcresearch-transforming-metadata-into-linked-data.html)_ (Image: CC BY)
 
 ![alt_text](https://thesciencemuseum.github.io/heritageconnector/post_files/explorer-3.png)
@@ -180,10 +183,12 @@ New forms of rich interfaces for online collections have been hindered by incomp
 
 Interfaces are [usually bespoke](http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html ), because of data limitations, but automating connections with a knowledge graph could mean scaling almost entire collections. There is a challenge in understanding user needs, in order to match them with all or part of the collection. An [evaluation of the principle of generous interfaces](https://pro.europeana.eu/page/issue-11-generous-interfaces#an-evaluation-of-generous-interfaces) by Europeana revealed through user testing that ‘inspiration-seeking digital flaneurs’ (i.e. non experts) found them inspirational and conducive to serendipitous discoveries.
 
-#### _Example: [Visualising the Royal Photographic Society collection: Historical photography at the V&A Museum](https://www.oliviavane.co.uk/vam)_
+_Example: [Visualising the Royal Photographic Society collection: Historical photography at the V&A Museum](https://www.oliviavane.co.uk/vam)_
 
 _Example: [Tyne & Wear Archives & Museums Collections Dive](http://www.collectionsdivetwmuseums.org.uk/ ) ([about](https://mw2016.museumsandtheweb.com/paper/i-dont-know-what-im-looking-for-better-understanding-public-usage-and-behaviours-with-tyne-wear-archives-museums-online-collections/))_
+
 _Example: [Witches, University of Edinburgh](https://witches.is.ed.ac.uk/)_
+
 _Example: [Wikidata query spider diagram ](https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem1%20%3Fimage1%20%3Fitem1Label%20%3Fitem2%20%3Fimage2%20%3Fitem2Label%20%3FedgeLabel%20%0AWITH%20%7B%0A%20%20SELECT%20%3Fitem1%20WHERE%20%7B%0A%20%20%20%20VALUES%20%3Fitem1%20%7B%20wd%3AQ28537550%20wd%3AQ430682%20wd%3AQ69562155%20wd%3AQ69561988%20wd%3AQ571%20wd%3AQ155626%20wd%3AQ2664039%20wd%3AQ3560705%20wd%3AQ160236%20wd%3AQ4010432%20wd%3AQ382307%20wd%3AQ42745%20wd%3AQ65966004%20wd%3AQ15221656%20wd%3AQ17494007%20wd%3AQ23402%20wd%3AQ65966300%20wd%3AQ49135%7D%0A%20%20%7D%0A%7D%20AS%20%25item1%0AWITH%20%7B%0A%20%20SELECT%20(%3Fitem1%20AS%20%3Fitem2)%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25item1.%0A%20%20%7D%0A%7D%20AS%20%25item2%0AWHERE%20%7B%0A%20%20INCLUDE%20%25item1.%0A%20%20INCLUDE%20%25item2.%0A%20%20%3Fitem1%20%3Fwdt%20%3Fitem2.%0A%20%20%3Fedge%20wikibase%3AdirectClaim%20%3Fwdt%3B%0A%20%20%20%20%20%20%20%20a%20wikibase%3AProperty.%0A%20%20OPTIONAL%20%7B%20%3Fitem1%20wdt%3AP18%20%3Fimage1.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem2%20wdt%3AP18%20%3Fimage2.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D)([about](https://www.slideshare.net/JennieChoi2/tags-art-and-ai-oh-my/41)) _(Image CC 0)
 
 ![alt_text](https://thesciencemuseum.github.io/heritageconnector/post_files/wikidata_graph.png)
