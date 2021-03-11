@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Imagining Interfaces for Cultural Heritage Knowledge Graphs"
+title: "Imagining Interfaces for Cultural Heritage Knowledge Graphs"
 categories: post
 ---
 
@@ -92,7 +92,6 @@ Such visualisations can serve users who might not know the contents of the colle
 _Example: [twoway.st](https://web.archive.org/web/20171205085623/http://twoway.st/ )_
 _Example: [Explore Art by Century](http://seeingthruthefogg.herokuapp.com/index.html#time)_
 
-
 ### 3. Filtering and sorting
 
 Once users have subsets of collection objects, usually returned through a search query, it is useful for them to be able to filter and sort these objects in different ways to narrow down search results and then explore this subset further. 
@@ -105,7 +104,7 @@ Using data from the knowledge graph, the number of dimensions for sorting and fi
 
 _Example: [CONTENTdm Linked Data Pilot Explorer](https://www.oclc.org/research/publications/2021/oclcresearch-transforming-metadata-into-linked-data.html)_ (Image: CC BY)
 
-![alt_text](/heritageconnector/post_files/explorer-4 "image_tooltip")
+![alt_text](https://thesciencemuseum.github.io/heritageconnector/post_files/explorer-4 "image_tooltip")
 
 ### 4. Serendipitous discovery 
 
@@ -168,7 +167,7 @@ _Example: Google Search Knowledge Panel_
 _Example: [Royal Academy of Art: Art and Artists](https://www.royalacademy.org.uk/art-artists#explore-more)_
 _Example: [CONTENTdm Linked Data Pilot Explorer](https://www.oclc.org/research/publications/2021/oclcresearch-transforming-metadata-into-linked-data.html)_ (Image: CC BY)
 
-![alt_text](/heritageconnector/post_files/explorer-3.png "image_tooltip")
+![alt_text](https://thesciencemuseum.github.io/heritageconnector/post_files/explorer-3.png "image_tooltip")
 
 ### 7. New forms of interface
 
@@ -187,7 +186,7 @@ _Example: [Tyne & Wear Archives & Museums Collections Dive](http://www.collectio
 _Example: [Witches, University of Edinburgh](https://witches.is.ed.ac.uk/)_
 _Example: [Wikidata query spider diagram ](https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem1%20%3Fimage1%20%3Fitem1Label%20%3Fitem2%20%3Fimage2%20%3Fitem2Label%20%3FedgeLabel%20%0AWITH%20%7B%0A%20%20SELECT%20%3Fitem1%20WHERE%20%7B%0A%20%20%20%20VALUES%20%3Fitem1%20%7B%20wd%3AQ28537550%20wd%3AQ430682%20wd%3AQ69562155%20wd%3AQ69561988%20wd%3AQ571%20wd%3AQ155626%20wd%3AQ2664039%20wd%3AQ3560705%20wd%3AQ160236%20wd%3AQ4010432%20wd%3AQ382307%20wd%3AQ42745%20wd%3AQ65966004%20wd%3AQ15221656%20wd%3AQ17494007%20wd%3AQ23402%20wd%3AQ65966300%20wd%3AQ49135%7D%0A%20%20%7D%0A%7D%20AS%20%25item1%0AWITH%20%7B%0A%20%20SELECT%20(%3Fitem1%20AS%20%3Fitem2)%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25item1.%0A%20%20%7D%0A%7D%20AS%20%25item2%0AWHERE%20%7B%0A%20%20INCLUDE%20%25item1.%0A%20%20INCLUDE%20%25item2.%0A%20%20%3Fitem1%20%3Fwdt%20%3Fitem2.%0A%20%20%3Fedge%20wikibase%3AdirectClaim%20%3Fwdt%3B%0A%20%20%20%20%20%20%20%20a%20wikibase%3AProperty.%0A%20%20OPTIONAL%20%7B%20%3Fitem1%20wdt%3AP18%20%3Fimage1.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem2%20wdt%3AP18%20%3Fimage2.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D)([about](https://www.slideshare.net/JennieChoi2/tags-art-and-ai-oh-my/41)) _(Image CC 0)
 
-![alt_text](/heritageconnector/post_files/wikidata_graph.png "image_tooltip")
+![alt_text](https://thesciencemuseum.github.io/heritageconnector/post_files/wikidata_graph.png "image_tooltip")
 
 ## Emerging questions, issues and considerations
 
