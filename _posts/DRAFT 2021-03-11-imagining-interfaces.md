@@ -29,7 +29,7 @@ To try to imagine how the Heritage Connector could be realised and accessed, exi
 
 ## Interface paradigms
 
-Audiences’ experience of cultural heritage collections online is broadly similar across the numerous GLAM (galleries, libraries, archives and museums) organisations’ websites. The similarities in these experiences are a combination of emerging best practice, understanding of user needs, trends in web design, norms of audience behaviour and constraints of underlying catalogue data. The experiences are framed by a set of paradigms of collection discovery interfaces. These paradigms include: \
+Audiences’ experience of cultural heritage collections online is broadly similar across the numerous GLAM (galleries, libraries, archives and museums) organisations’ websites. The similarities in these experiences are a combination of emerging best practice, understanding of user needs, trends in web design, norms of audience behaviour and constraints of underlying catalogue data. The experiences are framed by a set of paradigms of collection discovery interfaces. These paradigms include: 
 
 *   keyword search results with pagination,
 *   thumbnail images,
@@ -90,6 +90,7 @@ As increasing volumes of cultural heritage content is published online, it will 
 Such visualisations can serve users who might not know the contents of the collection and maybe range across multiple collections in search of hotspots of content that are related to their interests.
 
 _Example: [twoway.st](https://web.archive.org/web/20171205085623/http://twoway.st/ )_
+
 _Example: [Explore Art by Century](http://seeingthruthefogg.herokuapp.com/index.html#time)_
 
 ### 3. Filtering and sorting
