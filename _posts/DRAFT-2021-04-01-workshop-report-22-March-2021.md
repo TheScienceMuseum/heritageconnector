@@ -40,7 +40,7 @@ After [demoing](https://youtu.be/w3DkQwvrvBY) the work-in-progress [Heritage Con
 
 Responses from the participants fell into a number of categories:
 
-*   **Link-building between resources** e.g. between trade directories and collection catalogues, or cross-referencing between sources.
+*   **Link-building between resources** e.g. between trade directories and collection catalogues, or cross-referencing between sources
 *   **Advanced discovery** e.g. being able to search by alternative terms or identify references to the same people across multiple records
 *   **Surfacing related content** e.g. related projects, blog posts, articles etc.
 *   **Collection management** e.g. helping to cleanup taxonomy terms
@@ -55,19 +55,19 @@ The workshop wrapped up with a second activity which invited participants to out
 ### Hopes 
 
 *   **Richer interlinking of collections data** e.g. thematic connections, previously unknown connections, cross-collection links, etc.
-*   **Usable by audience** e.g. allowing researchers to help themselves, fit into the ways that historians work. 
-*   **Improving public access** e.g. new forms of access for broad audiences as well as researchers. 
+*   **Usable by audience** e.g. allowing researchers to help themselves, fit into the ways that historians work
+*   **Improving public access** e.g. new forms of access for broad audiences as well as researchers
 *   **Tools for collection managers** e.g. allows resources to be deployed more effectively; increased understanding of the collection, cleaning and aligning terminology, etc.
 *   **Opportunity to address bias** e.g. visualising absence and therefore being able to address areas of absence and bias
 *   **Potential to quantify uncertainty** e.g. modeling level of certainty in links and knowledge implied by them
 
 ### Fears
 
-*   **Usability is problematic** e.g. accessing the content might be difficult to use or results opaque. 
-*   **Absence or unreliability of data** e.g. collection datasets are incomplete, thin or patchy; and potential instability, inaccuracies or gaps in Wikidata and other sources. 
-*   **Inherent bias in results** e.g. approach perpetuates or amplifies existing biases; AI needs to be understood as a tool and not a solution, and machine learning training data need to be understood. 
-*   **Work in preparing data** e.g. need for human cleaning of data. 
-*   **Environmental sustainability** e.g. creation and storage of data. 
+*   **Usability is problematic** e.g. accessing the content might be difficult to use or results opaque
+*   **Absence or unreliability of data** e.g. collection datasets are incomplete, thin or patchy; and potential instability, inaccuracies or gaps in Wikidata and other sources
+*   **Inherent bias in results** e.g. approach perpetuates or amplifies existing biases; AI needs to be understood as a tool and not a solution, and machine learning training data need to be understood 
+*   **Work in preparing data** e.g. need for human cleaning of data
+*   **Environmental sustainability** e.g. creation and storage of data 
 *   **Longevity** e.g. reliance on research grants means approach and data not sustained
 *   **Scalability** e.g. approach remains out of reach for small organisations,reinforcing the bias towards large, well known, collections
 
