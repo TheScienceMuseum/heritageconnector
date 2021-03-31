@@ -69,7 +69,7 @@ The workshop wrapped up with a second activity which invited participants to out
 *   **Work in preparing data** e.g. need for human cleaning of data
 *   **Environmental sustainability** e.g. creation and storage of data 
 *   **Longevity** e.g. reliance on research grants means approach and data not sustained
-*   **Scalability** e.g. approach remains out of reach for small organisations,reinforcing the bias towards large, well known, collections
+*   **Scalability** e.g. approach remains out of reach for small organisations, reinforcing the bias towards large, well known, collections
 
 ## Acknowledgements 
 
