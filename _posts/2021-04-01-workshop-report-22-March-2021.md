@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Report on 22 March 2021 Workshop"
+title: "Report on Project Workshop (22 March 2021)"
 categories: events
 ---
 
