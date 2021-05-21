@@ -73,4 +73,4 @@ The workshop wrapped up with a second activity which invited participants to out
 
 ## Acknowledgements 
 
-Thanks to Rhiannon Lewis for organising the event; Sameena Allie for technical setup and support; Jamie Unwin, Kalyan Duita and Dr Jane Winters for presenting; Dr Tim Boon; and especially to the participants who attended the workshop.
+Thanks to Rhiannon Lewis for organising the event; Sameena Allie for technical setup and support; Jamie Unwin, Kalyan Dutia and Dr Jane Winters for presenting; Dr Tim Boon; and especially to the participants who attended the workshop.
