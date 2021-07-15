@@ -13,4 +13,4 @@ Below is a video recording of the talk entitled Machine Learning and Cultural He
 
  [Download presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/AOLIEAN_Presentation__John_Stack__7_July_2021.pdf)
 
-The recordings and slides from [this](https://www.aeolian-network.net/workshop-1-john-stack-machine-learning-and-cultural-heritage-what-is-it-good-enough-for/) the other presentations and panel discussions are also available on the [AEOLIAN Network blog](https://www.aeolian-network.net/blog/).
+The complete recordings and slides from [this](https://www.aeolian-network.net/workshop-1-john-stack-machine-learning-and-cultural-heritage-what-is-it-good-enough-for/) and the other presentations and panel discussions are available on the [AEOLIAN Network blog](https://www.aeolian-network.net/blog/).
