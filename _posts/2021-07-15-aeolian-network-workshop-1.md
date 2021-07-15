@@ -9,7 +9,7 @@ On 7 July 2021, [Heritage Connector](https://www.sciencemuseumgroup.org.uk/proje
 Below is a video recording of the talk entitled Machine Learning and Cultural Heritage: What Is It Good Enough For? 
 
 
-{% include youtubePlayer.html id="AFHgBsfMB44" iframetitle="Video of Heritage Connector talk at AOLEAN" %}
+{% include youtubePlayer.html id="AFHgBsfMB44" iframetitle="Video of Heritage Connector talk at AOLEAN Network Online Workshop 1" %}
 
  [Download presentation slides](https://thesciencemuseum.github.io/heritageconnector/post_files/AOLIEAN_Presentation__John_Stack__7_July_2021.pdf)
 
