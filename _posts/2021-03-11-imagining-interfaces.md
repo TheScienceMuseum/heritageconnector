@@ -136,7 +136,7 @@ This is about the experience of serendipity - an aspect of it needs to be unanti
 Systems need to highlight the variety of content, they also need to facilitate exploration. 
 4. **Triggered divergence** \
 Make a system where ‘associations and bisociations’ in a user's memory can be triggered by encounters with content, similar to the working practice of an Ethnographer. 
-5. **Induced curiosity  ** \
+5. **Induced curiosity** \
 The system needs to ensure that the user does not become a ‘passive observer’, rather curiosity needs to be inspired by how content is displayed. 
 
 _Example: [Generous Interface Fashion](https://riksantikvarieambetet.github.io/Generous-Interface-Fashion/) ([About](https://github.com/riksantikvarieambetet/Generous-Interface-Fashion ))_
