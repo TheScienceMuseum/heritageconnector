@@ -12,4 +12,4 @@ The webinar will feature:
 * A set of demonstrators which have been developed by the project team and through a hackathon held with digital agency [Cogapp](https://www.cogapp.com),
 * Reflections on the project from a digital humanities and curatorial perspectives.
 
-Registration details will be posted on this page in the coming weeks.
+The webinar will be delivered via Zoom and [registration](https://us06web.zoom.us/webinar/register/WN_PT-bLwQAR2mjW5IieqAO8g) is required.
