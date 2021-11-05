@@ -4,7 +4,7 @@ title: "Webinar: Heritage Connector: Findings, Demonstrators and Potential (14.3
 categories: events
 ---
 
-At 14.30–16.30 GMT on 3 December 2021, the [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) project is hosting a free, public webinar to share the findings from the project.
+At 14.30–16.30 [GMT](https://time.is/GMT) on 3 December 2021, the [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) project is hosting a free, public webinar to share the findings from the project.
 
 The webinar will feature: 
 
