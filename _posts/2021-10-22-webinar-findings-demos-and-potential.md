@@ -9,7 +9,7 @@ At 14.30–16.30 [GMT](https://time.is/GMT) on 3 December 2021, the [Heritage Co
 The webinar will feature: 
 
 * Technical overview of the project’s approach,
-* A set of demonstrators which have been developed by the project team and through a hackathon held with digital agency [Cogapp](https://www.cogapp.com),
+* A set of [demonstrators](https://thesciencemuseum.github.io/heritage-connector-demos/) which have been developed by the project team and through a hackathon held with digital agency [Cogapp](https://www.cogapp.com),
 * Reflections on the project from a digital humanities and curatorial perspectives.
 
 The webinar will be delivered via Zoom and [registration](https://us06web.zoom.us/webinar/register/WN_PT-bLwQAR2mjW5IieqAO8g) is required.
