@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Heritage Connector Data Outputs"
+title: "Open Access Data Outputs"
 categories: post
 ---
 
-The [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) data outputs have been published on Zenodo at [https://doi.org/10.5281/zenodo.5752010](https://doi.org/10.5281/zenodo.5752010).
+The [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) data outputs have been published on Zenodo at [https://doi.org/10.5281/zenodo.5752010](https://doi.org/10.5281/zenodo.5752010). The data outputs are available under the open access CC-BY 4.0 licence.
 
 The contents of the data outputs available are:
 
