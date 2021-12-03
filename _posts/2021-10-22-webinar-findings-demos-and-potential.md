@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webinar: Heritage Connector: Findings, Demonstrators and Potential (14.30–16.30, 3 December 2021)"
+title: "Webinar: Heritage Connector: Findings, Demonstrators and Potential (3 December 2021)"
 categories: events
 ---
 
