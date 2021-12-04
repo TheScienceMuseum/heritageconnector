@@ -14,7 +14,6 @@ The following list provides details of the projects developed at the hackathon:
 * [3D Space Curator](https://blog.cogapp.com/3d-space-curator-236849187f6)
 * [Heritage Connector Link Race](https://blog.cogapp.com/heritage-connector-link-race-904770982938)
 * [Good Neighbours](https://blog.cogapp.com/good-neighbours-2525e59a0b82)
-* [Heritage Connector Maps](https://github.com/TheScienceMuseum/heritage-connector-demos/blob/main/5_map_visualisation/README.md)
 * [RHiZOME](https://blog.cogapp.com/rhizome-152111320821)
 * [Timeline Interface](https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Timeline/)
 * [Map Interface](https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Map/)
