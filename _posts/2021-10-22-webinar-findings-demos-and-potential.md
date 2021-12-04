@@ -9,7 +9,7 @@ At 14.30–16.30 on 3 December 2021, the [Heritage Connector](https://www.scienc
 The webinar featured: 
 
 * Technical overview of the project’s approach,
-* A set of [demonstrators](https://thesciencemuseum.github.io/heritage-connector-demos/) which have been developed by the project team and through a hackathon held with digital agency [Cogapp](https://www.cogapp.com),
+* A set of [demonstrators](https://thesciencemuseum.github.io/heritage-connector-demos/) which have been developed by the project team and through a [hackathon](https://thesciencemuseum.github.io/heritageconnector/post/2021/12/05/Hackathon-Demos/) held with digital agency [Cogapp](https://www.cogapp.com),
 * Reflections on the project from a digital humanities and curatorial perspectives.
 
 Recordings of the webinar along with presentations and links will be posted on this page shortly.
