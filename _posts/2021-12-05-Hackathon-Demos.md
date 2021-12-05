@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hackathon Project Write Ups"
+title: "Hackathon Projects"
 categories: post
 ---
 
