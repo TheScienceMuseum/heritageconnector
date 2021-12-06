@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webinar: Heritage Connector and Deep Discoveries"
+title: "Webinar: Heritage Connector and Deep Discoveries (22 February 2021)"
 categories: events
 ---
 
