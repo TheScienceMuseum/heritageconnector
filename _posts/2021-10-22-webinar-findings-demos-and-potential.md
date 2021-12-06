@@ -16,7 +16,7 @@ The webinar featured:
 
 * [Kalyan Dutia and Jamie Unwin: Technical Presentation (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Kalyan_Dutia_Jamie_Unwin_Heritage_Connector_Final_Event_technical_presentation.pdf)
 * [Jane Winters: Heritage Connector and Digital Humanities (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Jane_Winters_Heritage_Connector_final_event_December 2021.pdf)
-* [Tristan Roddis:  Heritage Connector Hacks Results from the hack day with Cogapp (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/Tristan_Roddis_Heritage_Connector_Hack_Day.pdf)
+* [Tristan Roddis:  Heritage Connector Hacks Results from the hack day with Cogapp (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Tristan_Roddis_Heritage_Connector_Hack_Day.pdf)
 * [Tim Boon: Curatorial Reflections (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Tim_Boon_Heritage_Connector_Curatorial_Reflections_inc_Congruence_Engine.pdf)
 
 Recordings of the webinar and links will be posted on this page shortly.
