@@ -26,7 +26,7 @@ Thanks to Cogapp for hosting the day and to all the participants:
 * James Waterfield 
 * Jamie Unwin
 * John Stack
-* Kalyan Duita
+* Kalyan Dutia
 * Luke Watson-Davis 
 * Neil Hawkins
 * Nitin Ladwa
