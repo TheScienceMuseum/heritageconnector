@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webinar: Wikidata and Cultural Heritage Collections"
+title: "Webinar: Wikidata and Cultural Heritage Collections (19 June 2020)"
 categories: events
 ---
 
