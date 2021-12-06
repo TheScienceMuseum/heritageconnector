@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Presentation: Machine Learning and Cultural Heritage: What Is It Good Enough For?"
+title: "Presentation: Machine Learning and Cultural Heritage: What Is It Good Enough For? (7 July 2021)"
 categories: events
 ---
 
