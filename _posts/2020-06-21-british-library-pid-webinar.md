@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webinar: Persistent Identifiers as IRO Infrastructure"
+title: "Webinar: Persistent Identifiers as IRO Infrastructure (6 April 2020)"
 categories: events
 ---
 
