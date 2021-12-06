@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webinar: AI4LAM Lightning Talks on Named Entity Recognition"
+title: "Webinar: AI4LAM Lightning Talks on Named Entity Recognition (16 February 2021)"
 categories: events
 ---
 
