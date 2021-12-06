@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webinar: Connecting the UK's Cultural Heritage"
+title: "Webinar: Connecting the UK's Cultural Heritage (18 August 2020)"
 categories: events
 ---
 
