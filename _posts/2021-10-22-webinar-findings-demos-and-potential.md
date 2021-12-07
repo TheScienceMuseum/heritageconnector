@@ -60,7 +60,7 @@ Recordings of the webinar will be posted on this page shortly.
 * Write up of workshop with curators: <https://thesciencemuseum.github.io/heritageconnector/events/2021/04/01/workshop-report-22-March-2021/>
 * Project page: <https://www.sciencemuseumgroup.org.uk/project/heritage-connector/>
 * TANC website: <https://www.nationalcollection.org.uk/>
-* I imagine the recording and/or chat log will be posted on the projects wesbite or blog? :)
+* I imagine the recording and/or chat log will be posted on the projects website or blog? :)
 * Yes, we plan to post today's recording! and hope to include links and anonymised chat as John said 
 * Great, thank you!
 * Whoops, I forgot to talk about the SPARQL endpoint and interface. It's here <http://34.240.58.30/>, and our pieced-together ontology is here <https://github.com/TheScienceMuseum/thor-docker/blob/main/SCHEMA.md>
