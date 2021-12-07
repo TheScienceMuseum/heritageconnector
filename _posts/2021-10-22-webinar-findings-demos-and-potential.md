@@ -52,7 +52,7 @@ Recordings of the webinar will be posted on this page shortly.
 * <https://thesciencemuseum.github.io/heritageconnector/post/2021/09/10/demos-announcement/>
 * DH research hub @SAS: <https://www.sas.ac.uk/digital-humanities>
 * Write up of the workshop with curators: <https://thesciencemuseum.github.io/heritageconnector/events/2021/04/01/workshop-report-22-March-2021/>
-* Heritage connector: A machine learning framework for building linked open data from museum collections: https://onlinelibrary.wiley.com/doi/10.1002/ail2.23
+* Heritage connector: A machine learning framework for building linked open data from museum collections: <https://onlinelibrary.wiley.com/doi/10.1002/ail2.23>
 * HISTORY, AI AND KNOWLEDGE GRAPHS - Kalyan Dutia & Tim Boon: <https://thesciencemuseum.github.io/heritageconnector/post/2021/03/17/history-ai/>
 * Zotero library: <https://www.zotero.org/groups/2439363/heritage_connector>
 * HC YouTube channel: <https://www.youtube.com/channel/UCzO6jroIvj-JbFuiQ9BpZdQ>
