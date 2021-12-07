@@ -12,6 +12,8 @@ The webinar featured:
 * A set of [demonstrators](https://thesciencemuseum.github.io/heritage-connector-demos/) which have been developed by the project team and through a [hackathon](https://thesciencemuseum.github.io/heritageconnector/post/2021/12/05/Hackathon-Demos/) held with digital agency [Cogapp](https://www.cogapp.com),
 * Reflections on the project from a digital humanities and curatorial perspectives.
 
+Recordings of the webinar will be posted on this page shortly.
+
 ## Slides
 
 * [Kalyan Dutia and Jamie Unwin: Technical Presentation (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Kalyan_Dutia_Jamie_Unwin_Heritage_Connector_Final_Event_technical_presentation.pdf)
@@ -48,7 +50,7 @@ The webinar featured:
 * <https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/>
 * <https://doi.org/10.1002/ail2.23>
 * <https://thesciencemuseum.github.io/heritageconnector/post/2021/09/10/demos-announcement/>
-* DH research hub @SAS: https://www.sas.ac.uk/digital-humanities
+* DH research hub @SAS: <https://www.sas.ac.uk/digital-humanities>
 * Write up of the workshop with curators: <https://thesciencemuseum.github.io/heritageconnector/events/2021/04/01/workshop-report-22-March-2021/>
 * Heritage connector: A machine learning framework for building linked open data from museum collections: https://onlinelibrary.wiley.com/doi/10.1002/ail2.23
 * HISTORY, AI AND KNOWLEDGE GRAPHS - Kalyan Dutia & Tim Boon: <https://thesciencemuseum.github.io/heritageconnector/post/2021/03/17/history-ai/>
@@ -74,5 +76,3 @@ The webinar featured:
 * Great session, thank you all!
 * Very interesting looking at ways forward
 * Thanks so much everyone. Some of the tech side went over my head (!) but still a really useful session. Great work you're all doing, congrats.
-
-Recordings of the webinar will be posted on this page shortly.
