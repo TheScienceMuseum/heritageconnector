@@ -28,19 +28,19 @@ The webinar featured:
 
 {% include youtubePlayer.html id="eXhVOMpaTqE" iframetitle="Video of Digital Humanities and Heritage Connector Talk" %}
 
-* [Jane Winters: Heritage Connector and Digital Humanities (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Jane_Winters_Heritage_Connector_final_event_December_2021.pdf)
+* [Jane Winters: Heritage Connector and Digital Humanities Presentation (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Jane_Winters_Heritage_Connector_final_event_December_2021.pdf)
 
 ### 'Heritage Connector Hacks: Cogapp Hack Day' - Tristan Roddis, Cogapp
 
 {% include youtubePlayer.html id="1LpEBnvEDQo" iframetitle="Video of Heritage Connector Hacks: Cogapp Hack Day Talk" %}
 
-* [Tristan Roddis:  Heritage Connector Hacks Results from the hack day with Cogapp (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Tristan_Roddis_Heritage_Connector_Hack_Day.pdf)
+* [Tristan Roddis:  Heritage Connector Hacks Results from the hack day with Cogapp Presentation (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Tristan_Roddis_Heritage_Connector_Hack_Day.pdf)
 
 ### 'Curatorial Reflections' - Dr Tim Boon, Science Museum Group
 
 {% include youtubePlayer.html id="M7n-jOfkzuk" iframetitle="Video of Curatorial Reflections Talk" %}
 
-* [Tim Boon: Curatorial Reflections (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Tim_Boon_Heritage_Connector_Curatorial_Reflections_inc_Congruence_Engine.pdf)
+* [Tim Boon: Curatorial Reflections Presentation (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Tim_Boon_Heritage_Connector_Curatorial_Reflections_inc_Congruence_Engine.pdf)
 
 ## Chat
 
