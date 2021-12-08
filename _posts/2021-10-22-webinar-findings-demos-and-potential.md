@@ -12,13 +12,34 @@ The webinar featured:
 * A set of [demonstrators](https://thesciencemuseum.github.io/heritage-connector-demos/) which have been developed by the project team and through a [hackathon](https://thesciencemuseum.github.io/heritageconnector/post/2021/12/05/Hackathon-Demos/) held with digital agency [Cogapp](https://www.cogapp.com),
 * Reflections on the project from a digital humanities and curatorial perspectives.
 
-Recordings of the webinar will be posted on this page shortly.
+## Speakers
 
-## Slides
+### ‘Heritage Connector Webinar Introduction’ - John Stack, Science Museum Group
+
+{% include youtubePlayer.html id="DHY0EOIPXNc" iframetitle="Video of Heritage Connector Webinar Introduction Talk" %}
+
+### 'Transforming Text into Data to Extract Meaning and Make Connections’ - Kalyan Dutia and Jamie Unwin, Science Museum Group
+
+{% include youtubePlayer.html id="IVV08dun_jY" iframetitle="Video of Transforming Text into Data to Extract Meaning and Make Connections Talk" %}
 
 * [Kalyan Dutia and Jamie Unwin: Technical Presentation (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Kalyan_Dutia_Jamie_Unwin_Heritage_Connector_Final_Event_technical_presentation.pdf)
+
+### 'Digital Humanities and Heritage Connector' - Professor Jane Winters, School of Advanced Study, University of London
+
+{% include youtubePlayer.html id="eXhVOMpaTqE" iframetitle="Video of Digital Humanities and Heritage Connector Talk" %}
+
 * [Jane Winters: Heritage Connector and Digital Humanities (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Jane_Winters_Heritage_Connector_final_event_December_2021.pdf)
+
+### 'Heritage Connector Hacks: Cogapp Hack Day' - Tristan Roddis, Cogapp
+
+{% include youtubePlayer.html id="1LpEBnvEDQo" iframetitle="Video of Heritage Connector Hacks: Cogapp Hack Day Talk" %}
+
 * [Tristan Roddis:  Heritage Connector Hacks Results from the hack day with Cogapp (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Tristan_Roddis_Heritage_Connector_Hack_Day.pdf)
+
+### 'Curatorial Reflections' - Dr Tim Boon, Science Museum Group
+
+{% include youtubePlayer.html id="M7n-jOfkzuk" iframetitle="Video of Curatorial Reflections Talk" %}
+
 * [Tim Boon: Curatorial Reflections (PDF)](https://thesciencemuseum.github.io/heritageconnector/post_files/final_event_presentations/Tim_Boon_Heritage_Connector_Curatorial_Reflections_inc_Congruence_Engine.pdf)
 
 ## Chat
@@ -79,4 +100,4 @@ Recordings of the webinar will be posted on this page shortly.
 
 ## Acknowledgements
 
-Thanks to Rhiannon Lewis for organising the event; Sameena Allie for technical setup and support; Jamie Unwin, Kalyan Dutia, Dr Jane Winters, Tristan Roddis and Dr Jane Winters for presenting.
+Thanks to Rhiannon Lewis for organising the event; Sameena Allie for technical setup and support; Jamie Unwin, Kalyan Dutia, Professor Jane Winters, Tristan Roddis and Dr Tim Boon for presenting.
