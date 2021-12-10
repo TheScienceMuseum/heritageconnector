@@ -18,6 +18,8 @@ The following list provides details of the projects developed at the hackathon:
 * [Timeline Interface](https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Timeline/)
 * [Map Interface](https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Map/)
 
+The hackathon projects were presented at the project's final [webinar](https://thesciencemuseum.github.io/heritageconnector/events/2021/10/22/webinar-findings-demos-and-potential/) on 3 December 2021.
+
 Thanks to Cogapp for hosting the day and to all the participants: 
 * Alex Morrison 
 * Ben Rubinstein
