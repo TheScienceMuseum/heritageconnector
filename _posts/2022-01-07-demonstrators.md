@@ -9,5 +9,5 @@ The [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-
 Additional demonstrators were created through a [hackathon](https://thesciencemuseum.github.io/heritageconnector/post/2021/12/05/Hackathon-Demos/) in November 2021.
 
 
-![Screengrab of Heritage Connector Demonstrators webpage.](demonstrators_webpage_screengrab.png)
+![Screengrab of Heritage Connector Demonstrators webpage.](https://thesciencemuseum.github.io/heritageconnector/post_files/demonstrators_webpage_screengrab.png)
 
