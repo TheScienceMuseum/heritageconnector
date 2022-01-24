@@ -4,7 +4,7 @@ title: "Heritage Connector Code Repositories"
 categories: post
 ---
 
-The Heritage Connector project is composed of multiple components and services split across multiple GitHub repos. Below we give an overview of the project's main code repositories.
+The [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) project is composed of multiple components and services split across multiple GitHub repos. Below we give an overview of the project's main code repositories:
 
 * [Pipeline](#pipeline)
 * [Deployment](#deployment) 
