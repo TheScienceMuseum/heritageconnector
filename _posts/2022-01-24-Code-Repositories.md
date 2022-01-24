@@ -53,8 +53,8 @@ This repo contains various demos and sketches of demos for Heritage Connector.
 - an interactive streamlit app showing NER and entity linking which uses static data for speed (not hosted at the moment)
 - a bookmarklet to view connections from an SMG collection, blog or journal page
 - a macro visualisation of the whole collection/knowledge graph
-- a visualisation of the combined SMG and V&A* collections
-- maps (map 1; map 2) of all the places in the knowledge graph
+- a visualisation of the combined SMG and V&A collections
+- maps of all the places in the knowledge graph
 
 
 ## <a name="nlp"></a>Heritage Connector NLP 
