@@ -32,7 +32,7 @@ A set of tools to:
 
 An easy way to deploy all the Heritage Connector API’s and Endpoints, with the exception of the main pipeline, in one step.
 
-https://github.com/TheScienceMuseum/heritage-connector-deployment
+[https://github.com/TheScienceMuseum/heritage-connector-deployment](https://github.com/TheScienceMuseum/heritage-connector-deployment)
 
 The following services are included and all configured through environment variables:
 fuseki - RDF triplestore
