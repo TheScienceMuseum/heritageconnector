@@ -35,8 +35,7 @@ An easy way to deploy all the Heritage Connector API’s and Endpoints, with the
 [https://github.com/TheScienceMuseum/heritage-connector-deployment](https://github.com/TheScienceMuseum/heritage-connector-deployment)
 
 The following services are included and all configured through environment variables:
-fuseki - RDF triplestore
-
+- fuseki - RDF triplestore
 - thor - front end for performing SPARQL queries
 - thor-cors-proxy - CORS proxy to enable thor to connect to fuseki
 - heritage-connector-vectors - an nearest neighbours on knowledge graph embeddings
@@ -47,8 +46,7 @@ fuseki - RDF triplestore
 This repo contains various demos and sketches of demos for Heritage Connector. 
 
 [https://github.com/TheScienceMuseum/heritage-connector-demos
-](https://github.com/TheScienceMuseum/heritage-connector-demos
-)
+](https://github.com/TheScienceMuseum/heritage-connector-demos)
 
 - an interactive streamlit app showing NER and entity linking which uses static data for speed (not hosted at the moment)
 - a bookmarklet to view connections from an SMG collection, blog or journal page
