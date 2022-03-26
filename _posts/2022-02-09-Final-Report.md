@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Final Report"
+title: "Final Report Published"
 categories: post
 ---
 
