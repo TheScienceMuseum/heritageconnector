@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Presentation: 2022 Smithsonian Digitisation Conference (3 May 2022)"
+title: "Webinar: Foundation Projects: Heritage Connector, Persistent Identifiers and Provisional Semantics (3 May 2022)"
 categories: events
 ---
 
