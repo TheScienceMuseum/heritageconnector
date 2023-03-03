@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Final Report Published"
+title: "Heritage Connector: Final Report"
 categories: post
 ---
 
