@@ -14,6 +14,7 @@ The [Heritage Connector](https://www.sciencemuseumgroup.org.uk/project/heritage-
 * [APIs](#apis)
 * [Datasets](#datasets)
 * [Thor / Fuseki](#fuseki)
+* [Elastic Wikidata](#elasticwikidata)
 
 ## <a name="pipeline"></a>Heritage Connector Pipeline
 
@@ -86,3 +87,8 @@ These repos provide a SPARQL server (Fuseki), a SPARQL client (Thor) and a Proxy
 * [https://github.com/TheScienceMuseum/fuseki-docker](https://github.com/TheScienceMuseum/fuseki-docker)
 * [https://github.com/TheScienceMuseum/thor-docker](https://github.com/TheScienceMuseum/thor-docker)
 * [https://github.com/TheScienceMuseum/thor-cors-proxy](https://github.com/TheScienceMuseum/thor-cors-proxy)
+
+## <a name="elasticwikidata"></a>Elastic Wikidata
+Simple CLI tools to load a subset of Wikidata into Elasticsearch. 
+
+* [https://github.com/TheScienceMuseum/elastic-wikidata]https://github.com/TheScienceMuseum/elastic-wikidata
