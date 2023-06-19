@@ -91,4 +91,4 @@ These repos provide a SPARQL server (Fuseki), a SPARQL client (Thor) and a Proxy
 ## <a name="elasticwikidata"></a>Elastic Wikidata
 Simple CLI tools to load a subset of Wikidata into Elasticsearch. 
 
-* [https://github.com/TheScienceMuseum/elastic-wikidata]https://github.com/TheScienceMuseum/elastic-wikidata
+* [https://github.com/TheScienceMuseum/elastic-wikidata](https://github.com/TheScienceMuseum/elastic-wikidata)
