@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Map Interface Demonstrator | Heritage Connector Blog</title>
+<meta name="generator" content="Jekyll v3.9.4" />
+<meta property="og:title" content="Map Interface Demonstrator" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="On 19 November 2021, the Heritage Connector project held a one-day hackathon in partnership with Cogapp." />
+<meta property="og:description" content="On 19 November 2021, the Heritage Connector project held a one-day hackathon in partnership with Cogapp." />
+<link rel="canonical" href="https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Map/" />
+<meta property="og:url" content="https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Map/" />
+<meta property="og:site_name" content="Heritage Connector Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-12-04T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Map Interface Demonstrator" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-12-04T00:00:00+00:00","datePublished":"2021-12-04T00:00:00+00:00","description":"On 19 November 2021, the Heritage Connector project held a one-day hackathon in partnership with Cogapp.","headline":"Map Interface Demonstrator","mainEntityOfPage":{"@type":"WebPage","@id":"https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Map/"},"url":"https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Map/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/heritageconnector/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://thesciencemuseum.github.io/heritageconnector/feed.xml" title="Heritage Connector Blog" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP2L24V');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP2L24V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/heritageconnector/">Heritage Connector Blog</a></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Map Interface Demonstrator</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2021-12-04T00:00:00+00:00" itemprop="datePublished">
+        4 December 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>On 19 November 2021, the <a href="https://www.sciencemuseumgroup.org.uk/project/heritage-connector/">Heritage Connector</a> project held a one-day <a href="https://thesciencemuseum.github.io/heritageconnector/post/2021/12/05/Hackathon-Demos/">hackathon</a> in partnership with <a href="https://www.cogapp.com">Cogapp</a>.</p>
+
+<p>Ahead of the hackathon, a proof-of-concept map interface was developed to explore the potential of creating new entry interfaces into the knowledge graph.</p>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/Map_Screenshot.png" alt="Screengrab of browser window showing interactive map interface" /></p>
+
+<p>The <a href="https://doi.org/10.5281/zenodo.5752010">hc_dump_latest.csv</a> file was wrangled in <a href="https://www.barebones.com/products/bbedit/">BBEdit</a> to extract all the Wikidata QIDs.</p>
+
+<p>These were then processed in <a href="https://openrefine.org">OpenRefine</a> to add the following Wikidata property P625 (coordinate location) values giving latitude and longitude.</p>
+
+<p>The resulting data was then manipulated in OpenRefine to add links to the <a href="http://heritageconnector.sciencemuseum.org.uk/6_metadata_explorer/index.html">Heritage Connector Metadata Explorer</a> and then uploaded to Google Maps resulting to two maps:</p>
+
+<ul>
+  <li><a href="https://www.google.com/maps/d/viewer?mid=1rVGvHIKPs-xrAJfz9Jkv08hvkQaY9UHe&amp;ll=-3.81666561775622e-14%2C0&amp;z=1">Map 1</a></li>
+  <li><a href="https://www.google.com/maps/d/viewer?mid=1x0y7BU3bVtcn4qj4hjaDV4AYG06vZ2g-&amp;ll=-3.81666561775622e-14%2C0&amp;z=1">Map 2</a></li>
+</ul>
+
+<p>Because there is a limit on Google Maps of ten layers, each with max 2,000 pins, and there are 38,576 pins in total, the pins are split across two maps. As you explore, you may discover that there are some pins which actually relate to locations on the moon!</p>
+
+<p><a href="https://github.com/TheScienceMuseum/heritage-connector-demos/tree/main/5_map_visualisation">Download map data</a></p>
+
+<div class="embed-youtube">
+    <iframe src="https://www.youtube-nocookie.com/embed/uMpdW13aoU8" width="560" height="315" allowfullscreen="" title="Demonstration video of Heritage Connector timelines">
+    </iframe>
+</div>
+
+
+  </div><a class="u-url" href="/heritageconnector/post/2021/12/04/Map/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+<!--  
+   <data class="u-url" href="/heritageconnector/"></data>
+-->
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        
+<!--
+        <ul class="contact-list">
+          
+        </ul>
+
+-->
+        <p style="font-weight: bold; text-transform: uppercase;">Heritage Connector: Transforming text into data to extract meaning and make connections
+</p> 
+      <ul>
+                    <li>
+                        <a href="https://www.sciencemuseumgroup.org.uk/projects/heritage-connector">Project information</a>
+                    </li>
+                    <li>
+                        <a href="https://thesciencemuseum.github.io/heritageconnector/">Blog homepage</a>
+                    </li>
+                    <li>
+                        <a href="https://www.zotero.org/groups/2439363/heritage_connector">Zotero library</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCzO6jroIvj-JbFuiQ9BpZdQ">YouTube channel</a>
+                    </li>
+        
+                    <li>
+                        <a href="https://github.com/TheScienceMuseum/heritage-connector/">GitHub repository</a>
+                    </li>
+                 
+                </ul> 
+        
+<p class="feed-subscribe">
+          <a href="/heritageconnector/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Blog RSS feed</span>
+          </a>
+        </p>  
+        
+<p class="feed-subscribe">
+          <a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCzO6jroIvj-JbFuiQ9BpZdQ">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>YouTube RSS feed</span>
+          </a>
+        </p>  
+        
+        
+        <p>All content <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution (CC BY)</a> license unless otherwise specified.</p>
+        
+
+      </div>
+      
+      <div class="footer-col">
+        <p>Heritage Connector is a partnership between the <a href="https://www.sciencemuseumgroup.org.uk/">Science Museum Group</a>, <a href="https://www.sas.ac.uk">School of Advanced Study, University of London</a> and the <a href="https://www.vam.ac.uk">V&amp;A</a>.</p>
+        <p>Heritage Connector is funded by the Arts and Humanities Research Council's <a href="https://www.nationalcollection.org.uk">Towards a National Collection: Opening UK Heritage to the World</a> programme (<a href="https://www.ukri.org/what-we-do/our-main-funds-and-areas-of-support/browse-our-areas-of-investment-and-support/towards-a-national-collection-opening-uk-heritage-to-the-world/">AHRC webpage</a>).</p>
+        
+         <ul>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/privacy-policy/">Privacy and cookies</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/terms-and-conditions/">Terms and conditions</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/web-accessibility/">Web accessibility</a></li>
+        </ul> 
+        
+      
+      
+      
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+    
+  </div>
+
+</footer>
+</body>
+
+</html>

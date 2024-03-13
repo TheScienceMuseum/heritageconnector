@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Sidestepping the Limitations of Collection Catalogues with Machine Learning and Wikidata | Heritage Connector Blog</title>
+<meta name="generator" content="Jekyll v3.9.4" />
+<meta property="og:title" content="Sidestepping the Limitations of Collection Catalogues with Machine Learning and Wikidata" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Rhiannon Lewis and John Stack" />
+<meta property="og:description" content="Rhiannon Lewis and John Stack" />
+<link rel="canonical" href="https://thesciencemuseum.github.io/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/" />
+<meta property="og:url" content="https://thesciencemuseum.github.io/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/" />
+<meta property="og:site_name" content="Heritage Connector Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-09-23T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Sidestepping the Limitations of Collection Catalogues with Machine Learning and Wikidata" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-09-23T00:00:00+00:00","datePublished":"2020-09-23T00:00:00+00:00","description":"Rhiannon Lewis and John Stack","headline":"Sidestepping the Limitations of Collection Catalogues with Machine Learning and Wikidata","mainEntityOfPage":{"@type":"WebPage","@id":"https://thesciencemuseum.github.io/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/"},"url":"https://thesciencemuseum.github.io/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/heritageconnector/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://thesciencemuseum.github.io/heritageconnector/feed.xml" title="Heritage Connector Blog" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP2L24V');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP2L24V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/heritageconnector/">Heritage Connector Blog</a></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Sidestepping the Limitations of Collection Catalogues with Machine Learning and Wikidata</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2020-09-23T00:00:00+00:00" itemprop="datePublished">
+        23 September 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><strong>Rhiannon Lewis and John Stack</strong></p>
+
+<p>The <a href="https://www.sciencemuseumgroup.org.uk/project/heritage-connector/">Heritage Connector project</a> seeks to understand how existing digital tools and methods can be used to build relationships at scale between inconsistently, and at times thinly catalogued, digitised collection objects. Online collections have been with us for around twenty years now, and their digitisation has enabled access to databases with a wealth of collections knowledge. However, these databases have determined, and limited, how this collection knowledge was structured and accessed. Machine learning presents an opportunity to build links at scale through knowledge graphs between Wikidata and museum collections, so that we can begin to acknowledge and overcome these limitations.</p>
+
+<h2 id="heritage-objects-in-online-collections">Heritage objects in online collections</h2>
+
+<p>Since the late 1990s, increasing volumes of cultural heritage collection objects have been published in online collections. More recently, new forms of imaging (deep zoom, 3D scanning, etc.) have enabled ever greater exploration of those objects. While new forms of aesthetic exploration of objects offer ever richer user experience for individual objects and potential for new forms of research, the user still needs to discover these “enhanced surrogates” through online collection web interfaces. This can entail any of the following:</p>
+
+<ol>
+  <li>knowing about the collection’s existence;</li>
+  <li>understanding that it may contain relevant contents;</li>
+  <li>knowing that content is available online;</li>
+  <li>navigating the common pitfalls of text search: using search terms that align with the terms in the collection catalogue, having the desired content appear near the top of the results, potentially making multiple searches;</li>
+  <li>being able to see the relevance of the content to the search;</li>
+  <li>ideally, being able to navigate from that content to related content.</li>
+</ol>
+
+<p>Even though enormous amounts of collection content has been digitised, there are multiple barriers to its discovery.</p>
+
+<h2 id="how-those-collections-have-been-structured">How those collections have been structured</h2>
+
+<p>Many of these discovery steps are driven by catalogue data. These records are usually stored by a collection management system in a relational database whose structure can be used to power online search and browse features.  For the most part, these catalogues pre-date digitisation and their origins lie in the needs of collection management: accession records, location, loans, reports, conservation, hazards, etc. Then, a subset of these fields are used to populate the object’s online record.</p>
+
+<p>The records may also have been augmented by new cataloguing data which has been specifically implemented to improve the online experience: indexing, interpretation texts, manually created links to other resources, etc. In spite of this discovery and exploration of those objects remains, however, primarily driven by the collecting institution’s catalogue.</p>
+
+<h2 id="challenges-limitations-and-their-causes">Challenges, limitations, and their causes</h2>
+
+<p>Through this approach, huge volumes of cultural heritage material are available online. There are, however, some limitations to this approach that are common across the cultural heritage collection sector.</p>
+
+<h3 id="collections">Collections</h3>
+<ul>
+  <li>Collections can be extremely diverse in content – for example, the Science Museum Group’s collection includes unique scientific instruments, mass-produced products, artworks, ethnographic objects, rail vehicles and more. These disparate areas would benefit from specific approaches to cataloguing and discovery.</li>
+</ul>
+
+<h3 id="legacy-of-cataloguing-methods">Legacy of cataloguing methods</h3>
+<ul>
+  <li>Approaches to cataloguing have grown organically, often over decades, and are frequently inconsistent within a given collection.</li>
+  <li>Cataloguing is labour intensive and generally, records are thin or partial, and many objects are potentially similarly catalogued.</li>
+</ul>
+
+<h3 id="cataloguing-data">Cataloguing data</h3>
+<ul>
+  <li>Collections and their contexts are complex and hard to model in datasets at scale and collection catalogues are inevitably reductive.</li>
+  <li>Application of controlled vocabularies is variable and uneven, limiting browsing interfaces as computers rely heavily on controlled data for such interfaces.</li>
+  <li>Collection subcategories are used for a variety of purposes and are frequently hard to alter, the result of which is that it is problematic to use these as useful entry points to explore collections.</li>
+  <li>Object terms that are no longer in use or understood beyond specialist knowledge relate to objects, therefore making free text search hard to navigate without prior subject knowledge.</li>
+</ul>
+
+<h3 id="difficulties-traversing-collections-by-themeobject">Difficulties traversing collections by theme/object</h3>
+<ul>
+  <li>The same object is likely catalogued in different ways in different institutions’ collections as the catalogue itself tends to view the object through the lens of the institution’s broad subject domain.</li>
+  <li>Across multiple institution’s collections it is hard to get a handle on the overall contents of collections quickly and the relative strengths, volumes and contents of each in different areas.</li>
+  <li>Collection catalogues tend to include very few or no links to external sources be they other collections or related material.</li>
+  <li>Aside from a handful of aggregators such as ArtUK and Europeana, discovery across disparate collections requires multiple searches and manual collation of results as each collection website is effectively an island and the aggregators inevitably inherit many of the limitations of the individual collection websites.</li>
+</ul>
+
+<h2 id="enter-machine-learning">Enter machine learning</h2>
+<p>Previous and current approaches to digital access to collections have been based on a model where data is tabular, although structured in a relational database, which does afford sophisticated searching to the extent that the underlying data supports it.</p>
+
+<p>Through machine learning, there is a step change underway in the capability of computers to solve problems. Machine learning can provide better results for existing questions, it enables asking new questions and can be applied to new types of data. It can do these things at scale and at speed.</p>
+
+<h2 id="areas-of-potential">Areas of potential</h2>
+
+<p>From our analysis, machine learning presents opportunities for digital collection management in these areas:</p>
+
+<ul>
+  <li>improve browsing interfaces where those are currently limited by the available collection data</li>
+  <li>enhance search by keyword where that is currently limited and where presentation of results in an ordered list is problematic.</li>
+  <li>extract information (datapoints) from the free-text description and interpretation fields</li>
+</ul>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/Screenshot_of_description_field_of_Difference_Engine.png" alt="Screenshot description field of Difference Engine No.2, designed by Charles Babbage, built by Science Museum" />
+<span class="caption">Screenshot description field of <a href="https://collection.sciencemuseumgroup.org.uk/objects/co526657/difference-engine-no-2-designed-by-charles-babbage-built-by-science-museum-difference-engine">Difference Engine No.2, designed by Charles Babbage, built by Science Museum</a> with named entity recognition testing</span></p>
+
+<ul>
+  <li>create thematic and topic entry points that provide users with entry points to areas of the collection(s)</li>
+  <li>enable-cross collection linking and discovery so users can rapidly explore larger and more diverse volumes of material</li>
+  <li>offer onward links to related material in other collections and related sources</li>
+  <li>increase usage of collections through surfacing deep content more effectively</li>
+  <li>facilitate serendipitous discovery of material by providing a wealth of surrounding material and contextual content</li>
+  <li>generate links into knowledge graphs and third-party datasets that surface new data and facilitate new forms of cross-disciplinary research</li>
+</ul>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/Example_of_Wikidata_linking_museum_collections.png" alt="Screenshot of Wikidata linking museum collections starting with a Portrait of Madame X by John Singer Sargent from The Met’s collections’, which went on to inspire a dress worn by Rita Hayworth" />
+<span class="caption"><a href="https://www.slideshare.net/JennieChoi2/tags-art-and-ai-oh-my/41">Screenshot</a> of Wikidata linking museum collections starting with a Portrait of Madame X by John Singer Sargent from The Met’s collections’, which went on to inspire a dress worn by Rita Hayworth - <a href="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem1%20%3Fimage1%20%3Fitem1Label%20%3Fitem2%20%3Fimage2%20%3Fitem2Label%20%3FedgeLabel%20%0AWITH%20%7B%0A%20%20SELECT%20%3Fitem1%20WHERE%20%7B%0A%20%20%20%20VALUES%20%3Fitem1%20%7B%20wd%3AQ28537550%20wd%3AQ430682%20wd%3AQ69562155%20wd%3AQ69561988%20wd%3AQ571%20wd%3AQ155626%20wd%3AQ2664039%20wd%3AQ3560705%20wd%3AQ160236%20wd%3AQ4010432%20wd%3AQ382307%20wd%3AQ42745%20wd%3AQ65966004%20wd%3AQ15221656%20wd%3AQ17494007%20wd%3AQ23402%20wd%3AQ65966300%20wd%3AQ49135%7D%0A%20%20%7D%0A%7D%20AS%20%25item1%0AWITH%20%7B%0A%20%20SELECT%20(%3Fitem1%20AS%20%3Fitem2)%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25item1.%0A%20%20%7D%0A%7D%20AS%20%25item2%0AWHERE%20%7B%0A%20%20INCLUDE%20%25item1.%0A%20%20INCLUDE%20%25item2.%0A%20%20%3Fitem1%20%3Fwdt%20%3Fitem2.%0A%20%20%3Fedge%20wikibase%3AdirectClaim%20%3Fwdt%3B%0A%20%20%20%20%20%20%20%20a%20wikibase%3AProperty.%0A%20%20OPTIONAL%20%7B%20%3Fitem1%20wdt%3AP18%20%3Fimage1.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem2%20wdt%3AP18%20%3Fimage2.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D">Wikidata query</a></span></p>
+
+<ul>
+  <li>explore playful and experimental approaches to collection access which will broaden audiences.</li>
+</ul>
+
+<h2 id="heritage-connector">Heritage Connector</h2>
+
+<p>In Heritage Connector, we’re exploring how to realise the areas of potential outlined above using machine learning techniques on the existing collection(s) catalogues and other datasets to build a knowledge graph. This knowledge graph will be linked to Wikidata. <a href="https://www.wikidata.org/wiki/Wikidata:Introduction">Wikidata</a> is the free, open, linked, multilingual and structured database which underpins Wikipedia but which is also a tool in its own right. Today, Wikidata contains over <a href="https://www.wikidata.org/wiki/Wikidata:Statistics">89 million items</a> structured as a linked data and includes references to dozens of external data points in cultural heritage collections.</p>
+
+<p>Four months into the project and among the emerging areas of potential that we are seeing are:</p>
+
+<ul>
+  <li>Clustering of related content which might be used to create new features such as improved related content</li>
+  <li>Creating thematic entry points to “neighbourhoods” in the Science Museum Group’s collection</li>
+  <li>Being able to generate area visualisations to show content density, relative to volumes of content and record depth</li>
+  <li>Presenting the entire collection in forms explorable by a larger number of dimensions than exist in the (relational database) collection catalogue</li>
+  <li>Making links to Wikidata that will enable us to ingest related Wikidata entries into our search index to improve search, discovery and browsing; enable multilingual features; and present additional fields held in Wikidata that are not within the collection catalogue</li>
+  <li>Using Wikidata as a “Rosetta Stone” to provide links to other datasets, to ingest content from those datasets, and to provide richer interfaces</li>
+</ul>
+
+<h2 id="emerging-considerations">Emerging considerations</h2>
+
+<p>As Heritage Connector has shown areas of potential for use of machine learning methods in building a knowledge graph to connect collections to Wikidata, some areas of exploration and scrutiny over the next period of the project have emerged:</p>
+
+<ul>
+  <li>What are the contexts in which Heritage Connector’s data might be used? Are there interfaces and applications emerging as possibilities from it?</li>
+  <li>How can “fuzziness” and uncertainty of machine-learning-generated links/content be presented?</li>
+  <li>How is it best to define the edges of who and what is not included in the catalogue, in other datasets and in the various software toolkits being used?</li>
+  <li>Are already marginalised / under-represented groups in collections moved further to the margins through existing or historical data usage?</li>
+  <li>What are the relevant ethical issues in machine learning generally, and how do these manifest when programming to learn specifically from museum collection catalogue data?</li>
+  <li>Transparency of connections - document how links were created and consider how this transparency might speak to different audiences.</li>
+  <li>Need to explore the possibility of users feeding back on the usefulness of the outputs and potentially incorporating this into the output interfaces e.g. flagging poor links / upvoting good links, etc.</li>
+</ul>
+
+<p>Digging deeper into these questions will be the focus of some of our forthcoming blog posts.</p>
+
+  </div><a class="u-url" href="/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+<!--  
+   <data class="u-url" href="/heritageconnector/"></data>
+-->
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        
+<!--
+        <ul class="contact-list">
+          
+        </ul>
+
+-->
+        <p style="font-weight: bold; text-transform: uppercase;">Heritage Connector: Transforming text into data to extract meaning and make connections
+</p> 
+      <ul>
+                    <li>
+                        <a href="https://www.sciencemuseumgroup.org.uk/projects/heritage-connector">Project information</a>
+                    </li>
+                    <li>
+                        <a href="https://thesciencemuseum.github.io/heritageconnector/">Blog homepage</a>
+                    </li>
+                    <li>
+                        <a href="https://www.zotero.org/groups/2439363/heritage_connector">Zotero library</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCzO6jroIvj-JbFuiQ9BpZdQ">YouTube channel</a>
+                    </li>
+        
+                    <li>
+                        <a href="https://github.com/TheScienceMuseum/heritage-connector/">GitHub repository</a>
+                    </li>
+                 
+                </ul> 
+        
+<p class="feed-subscribe">
+          <a href="/heritageconnector/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Blog RSS feed</span>
+          </a>
+        </p>  
+        
+<p class="feed-subscribe">
+          <a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCzO6jroIvj-JbFuiQ9BpZdQ">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>YouTube RSS feed</span>
+          </a>
+        </p>  
+        
+        
+        <p>All content <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution (CC BY)</a> license unless otherwise specified.</p>
+        
+
+      </div>
+      
+      <div class="footer-col">
+        <p>Heritage Connector is a partnership between the <a href="https://www.sciencemuseumgroup.org.uk/">Science Museum Group</a>, <a href="https://www.sas.ac.uk">School of Advanced Study, University of London</a> and the <a href="https://www.vam.ac.uk">V&amp;A</a>.</p>
+        <p>Heritage Connector is funded by the Arts and Humanities Research Council's <a href="https://www.nationalcollection.org.uk">Towards a National Collection: Opening UK Heritage to the World</a> programme (<a href="https://www.ukri.org/what-we-do/our-main-funds-and-areas-of-support/browse-our-areas-of-investment-and-support/towards-a-national-collection-opening-uk-heritage-to-the-world/">AHRC webpage</a>).</p>
+        
+         <ul>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/privacy-policy/">Privacy and cookies</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/terms-and-conditions/">Terms and conditions</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/web-accessibility/">Web accessibility</a></li>
+        </ul> 
+        
+      
+      
+      
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+    
+  </div>
+
+</footer>
+</body>
+
+</html>

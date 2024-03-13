@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Imagining Interfaces for Cultural Heritage Knowledge Graphs | Heritage Connector Blog</title>
+<meta name="generator" content="Jekyll v3.9.4" />
+<meta property="og:title" content="Imagining Interfaces for Cultural Heritage Knowledge Graphs" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Rhiannon Lewis and John Stack" />
+<meta property="og:description" content="Rhiannon Lewis and John Stack" />
+<link rel="canonical" href="https://thesciencemuseum.github.io/heritageconnector/post/2021/03/11/imagining-interfaces/" />
+<meta property="og:url" content="https://thesciencemuseum.github.io/heritageconnector/post/2021/03/11/imagining-interfaces/" />
+<meta property="og:site_name" content="Heritage Connector Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-11T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Imagining Interfaces for Cultural Heritage Knowledge Graphs" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-03-11T00:00:00+00:00","datePublished":"2021-03-11T00:00:00+00:00","description":"Rhiannon Lewis and John Stack","headline":"Imagining Interfaces for Cultural Heritage Knowledge Graphs","mainEntityOfPage":{"@type":"WebPage","@id":"https://thesciencemuseum.github.io/heritageconnector/post/2021/03/11/imagining-interfaces/"},"url":"https://thesciencemuseum.github.io/heritageconnector/post/2021/03/11/imagining-interfaces/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/heritageconnector/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://thesciencemuseum.github.io/heritageconnector/feed.xml" title="Heritage Connector Blog" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP2L24V');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP2L24V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/heritageconnector/">Heritage Connector Blog</a></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Imagining Interfaces for Cultural Heritage Knowledge Graphs</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2021-03-11T00:00:00+00:00" itemprop="datePublished">
+        11 March 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Rhiannon Lewis and John Stack</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The <a href="https://www.sciencemuseumgroup.org.uk/project/heritage-connector/">Heritage Connector project</a> explores how <a href="https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/">AI-generated knowledge graphs</a> can facilitate new forms of exploration, discovery and research for digitised cultural heritage collections. As covered in <a href="https://thesciencemuseum.github.io/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/">our previous blog post</a>, all collection catalogue data:</p>
+
+<ul>
+  <li>is inherently reductive;</li>
+  <li>is uneven, incomplete and forever a work in progress;</li>
+  <li>includes biases, both in content (where are there omissions?) and cataloguing which inevitably gives prominence to particular areas over others;</li>
+  <li>is structured in a tabular format (usually in a relational database system).</li>
+</ul>
+
+<p>As Windhager notes in <em><a href="https://www.academia.edu/37361155/Visualization_of_Cultural_Heritage_Collection_Data_State_of_the_Art_and_Future_Challenges?email_work_card=view-paper">Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges</a></em>, ‘CH [cultural heritage] collections are assemblages inherited from the past, experienced in the present, and preserved for the future.’</p>
+
+<p>To try to imagine how the Heritage Connector could be realised and accessed, existing interface paradigms currently employed by cultural heritage organisations online are revisited here, followed by an exploration of what knowledge graphs make possible for structuring and accessing data. Existing examples of how knowledge graphs have already been used with cultural heritage collections are introduced, to help demonstrate how building interfaces with knowledge graphs could lead to substantial shifts in how collections are explored. These shifts are considered through the following themes:</p>
+
+<ol>
+  <li>Improved search results,</li>
+  <li>Macro view of entire collection,</li>
+  <li>Filtering and sorting,</li>
+  <li>Serendipitous discovery,</li>
+  <li>New entry points,</li>
+  <li>Rich onward journeys,</li>
+  <li>New forms of user interface.</li>
+</ol>
+
+<h2 id="interface-paradigms">Interface paradigms</h2>
+
+<p>Audiences’ experience of cultural heritage collections online is broadly similar across the numerous GLAM (galleries, libraries, archives and museums) organisations’ websites. The similarities in these experiences are a combination of emerging best practice, understanding of user needs, trends in web design, norms of audience behaviour and constraints of underlying catalogue data. The experiences are framed by a set of paradigms of collection discovery interfaces. These paradigms include:</p>
+
+<ul>
+  <li>keyword search results with pagination,</li>
+  <li>thumbnail images,</li>
+  <li>creator and other groupings,</li>
+  <li>filtering of search results on some parameters,</li>
+  <li>cataloguing hierarchy,</li>
+  <li>links to related content,</li>
+  <li>“on displays” or location status,</li>
+  <li>topic entry points.</li>
+</ul>
+
+<p>While these paradigms serve some audiences and user needs adequately, or even well, and audience expectations of this approach are now well established, there are a number of limitations which are complex to overcome. Such approaches:</p>
+
+<ul>
+  <li>tend to rely on search as the primary discovery mechanism with advanced search problematic available in many cases;</li>
+  <li>allow filtering and sorting of content, however only by very well defined and populated fields, of which there are often very few;</li>
+  <li>have few non-search entry points, as themes and topics tend not to be recorded and categories tend to be for internal collection management use and inadequate for the public;</li>
+  <li>do not to work well across multiple institutions without comprehensive catalogue data alignment;</li>
+  <li>evolve slowly in terms of functionality as additions of new data tables and fields need to be carefully considered;</li>
+  <li>have limited potential for richer “generous interfaces” – “<a href="http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html">rich, browsable interfaces that reveal the scale and complexity of digital heritage collections</a>” – which require comprehensive datasets and tend to amplify omissions and uneven cataloguing;</li>
+  <li>have few onward links to related materials as these need to be manually added and managed which is overly onerous at scale;</li>
+  <li>are hard to visualise as a whole collections showing overall contents and the relative sizes of these, as the data to implement such interfaces does not exist.</li>
+</ul>
+
+<h2 id="knowledge-graphs">Knowledge graphs</h2>
+
+<p>As opposed to structured information systems (i.e. typical heritage collection tabular data models), using knowledge graphs to build interfaces can:</p>
+
+<ul>
+  <li>handle complex relationships well;</li>
+  <li>hold many different kinds of data relationships;</li>
+  <li>quickly calculate relationships, such as “closeness” between interrelated things;</li>
+  <li>bridge across disparate content without the need to merge datasets, and then infer new relationships;</li>
+  <li>be highly flexible and can change and grow easily.</li>
+</ul>
+
+<p>In 2012 the Google Knowledge Graph was launched in <a href="https://blog.google/products/search/introducing-knowledge-graph-things-not/">Introducing the Knowledge Graph: Things, Not Strings</a>, which outlined the three areas they were beginning to use a knowledge-graph-based approached to search:</p>
+
+<ol>
+  <li>“<strong>Find the right thing</strong> […] your results are more relevant because we understand these entities, and the nuances in their meaning”;</li>
+  <li>“<strong>Get the best summary</strong> […] better understand your query, so we can summarize relevant content around that topic, including key facts you’re likely to need for that particular thing”;</li>
+  <li>“<strong>Go deeper and broader</strong> […] the Knowledge Graph can help you make some unexpected discoveries”.</li>
+</ol>
+
+<p>Knowledge graphs can help users discover new content, more intelligently present results, improve user experience and facilitate understanding. This is why  they form the basis for a huge variety of content-rich discovery services such as <a href="https://arxiv.org/abs/1907.02106">Pinterest</a>, <a href="https://www.forbes.com/sites/bernardmarr/2019/06/26/knowledge-graphs-and-machine-learning-the-future-of-ai-analytics/">Netflix</a>, <a href="https://arxiv.org/pdf/2003.02320.pdf">Facebook, Amazon and Airbnb</a>.</p>
+
+<h2 id="knowledge-graphs-and-cultural-heritage-collections">Knowledge graphs and cultural heritage collections</h2>
+
+<p>In Heritage Connector, we’re interested in ways in which an AI-generated knowledge graph – such as the one we’re creating as part of our project – can fulfil the needs of the users of digitised cultural heritage collections and also overcome some of the limitations of the current approaches. The following outlines the areas we are considering:</p>
+
+<h3 id="1-improved-search-results">1. Improved search results</h3>
+
+<p>Free text search is the primary <a href="https://lab.sciencemuseum.org.uk/exploring-museum-collections-online-some-background-reading-da5a332fa2f8">established route</a> into collections. The integration of additional content from a knowledge graph can extend vocabularies, and data can be used to drive the search results.</p>
+
+<p>It’s not hard to imagine a cultural heritage collection search where the user doesn’t need to use exact spelling or precise terms to return high-quality results – similar to Google’s ability to be able to predict questions, make inferences with content and not be constrained by identical match for keyword position and frequency.</p>
+
+<p>Furthermore, as <a href="https://thesciencemuseum.github.io/heritageconnector/post/2020/09/23/sidestepping-the-limitations-of-collections-catalogues-with-machine-learning-and-wikidata/">previously discussed</a>, collections online use taxonomies specific to their subject and museum. These terms may not be known or understood by those seeking exploring or searching in the collection through the free text search. Applying a knowledge graph to a collection(s) – as <a href="https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/">Heritage Connector seeks to</a> – can expand what is possible to search by and the terms that can be used by extending information beyond that in catalogue to include other data/facts/”knowledge” into the knowledge graph from Wikidata and other collections.</p>
+
+<h3 id="2-macro-view-of-entire-collection">2. Macro view of entire collection</h3>
+
+<p>It is notoriously difficult to grasp the contents of entire cultural heritage collections from their online interfaces. This is especially useful for collections that are extremely diverse (such as the Science Museum Group and V&amp;A collections). Even descriptive texts about a given collection tend to lack the level of detail that most users would need to evaluate whether the collection would be valuable to them, because their authors often prefer to describe the collection in broad brush strokes.</p>
+
+<p>As increasing volumes of cultural heritage content is published online, it will be increasingly important to be able to quickly and effectively get an overview of a collection and ideally to be able to do so through a number of different “lenses” selected or specified by the user.</p>
+
+<p>Such visualisations can serve users who might not know the contents of the collection and maybe range across multiple collections in search of hotspots of content that are related to their interests.</p>
+
+<p><em>Example: <a href="https://web.archive.org/web/20171205085623/http://twoway.st/">twoway.st</a></em></p>
+
+<p><em>Example: <a href="http://seeingthruthefogg.herokuapp.com/index.html#time">Explore Art by Century</a></em></p>
+
+<h3 id="3-filtering-and-sorting">3. Filtering and sorting</h3>
+
+<p>Once users have subsets of collection objects, usually returned through a search query, it is useful for them to be able to filter and sort these objects in different ways to narrow down search results and then explore this subset further.</p>
+
+<p>This mid-level interface is important as it transitions the user from the high-level “macro” overview to individual object records (see <em><a href="https://www.academia.edu/37361155/Visualization_of_Cultural_Heritage_Collection_Data_State_of_the_Art_and_Future_Challenges">Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges</a></em> and <em><a href="https://www.cs.umd.edu/~ben/papers/Shneiderman1996eyes.pdf">The Eyes Have It: A Task by Data Type Taxonomy for Information Visualization</a></em>).</p>
+
+<p>The dimensions by which filtering and sorting can be implemented in the interface is directly related to the underlying collection metadata, which – in current database approaches – need to be highly structured and broadly and consistently applied to provide a useful user interface. In practice, this means that for many collections such filtering and sorting features are limited.</p>
+
+<p>Using data from the knowledge graph, the number of dimensions for sorting and filtering can be dramatically increased and can vary depending on the particular content being accessed. Furthermore, these filters do not need to be contained in the collection catalogue as they can be inferred from the wider knowledge graph.</p>
+
+<p><em>Example: <a href="https://www.oclc.org/research/publications/2021/oclcresearch-transforming-metadata-into-linked-data.html">CONTENTdm Linked Data Pilot Explorer</a></em> (Image: CC BY)</p>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/explorer-3.png" alt="Prototype interface from CONTENTdm Linked Data Pilot Explorer project showing collection search results with left-hand  panel listing various search filters" /></p>
+
+<h3 id="4-serendipitous-discovery">4. Serendipitous discovery</h3>
+
+<p>The focus of keyword-search-and-filter interfaces is accuracy against a query. This has meant they tend not to be unsuccessful in enabling serendipitous discovery of related items. If they do, the related items tend to be selected based on the same underlying collection catalogue data as the search, meaning that suggested “related objects” tend to be “close to” the current object based on only a subset of possible relationships: namely, those in the catalogue.</p>
+
+<p>Knowledge graphs cluster related items well, therefore they have the potential to facilitate serendipitous discovery – discovery of content to the user that is “<a href="http://informationr.net/ir/16-3/paper483.html">[u]nintended but auspicious</a>”. Serendipitous discovery didn’t begin with knowledge graphs, or even with digital content, rather it was a characteristic of libraries where you were able to browse. It is valuable to research, and therefore it is important to build-in digital versions to digital systems.</p>
+
+<p>In <a href="http://informationr.net/ir/16-3/paper483.html">Measuring the dimensions of serendipity in digital environments</a>, McCay-Peet and Toms (2011)_ _seek to understand how serendipity can be enacted in digital spaces. They do so by introducing what serendipity is, how its been researched and how it has functioned in a number contexts, such as the physical spaces of libraries. It builds on the work of Björneborn’s 2008 <a href="https://www.webcitation.org/60maSB29Y">Design Dimensions Enabling Divergent Behaviour across Physical, Digital, and Social Library Interfaces</a>, specifically ten aspects:</p>
+
+<ul>
+  <li>Unimpeded and direct access,</li>
+  <li>Rich diversity,</li>
+  <li>Curiosity-invoking display,</li>
+  <li>Striking contrasts,</li>
+  <li>Pointers,</li>
+  <li>Imperfections,</li>
+  <li>Cross contacts,</li>
+  <li>Multi-reachability,</li>
+  <li>Explorability,</li>
+  <li>Stopability.</li>
+</ul>
+
+<p>Through these physical dimensions of serendipity, <a href="http://informationr.net/ir/16-3/paper483.html">McCay’s research</a> proposed five factors that facilitate serendipity in digital spaces:</p>
+
+<ol>
+  <li><strong>Enabled connections</strong> <br />
+‘unimpeded and direct access’ to content, means connections between dissimilar resources can be made, creating previously unimagined new approach research questions/problems.</li>
+  <li><strong>Introduced the unexpected</strong> <br />
+This is about the experience of serendipity - an aspect of it needs to be unanticipated.</li>
+  <li><strong>Presented variety</strong> <br />
+Systems need to highlight the variety of content, they also need to facilitate exploration.</li>
+  <li><strong>Triggered divergence</strong> <br />
+Make a system where ‘associations and bisociations’ in a user’s memory can be triggered by encounters with content, similar to the working practice of an Ethnographer.</li>
+  <li><strong>Induced curiosity</strong> <br />
+The system needs to ensure that the user does not become a ‘passive observer’, rather curiosity needs to be inspired by how content is displayed.</li>
+</ol>
+
+<p><em>Example: <a href="https://riksantikvarieambetet.github.io/Generous-Interface-Fashion/">Generous Interface Fashion</a> (<a href="https://github.com/riksantikvarieambetet/Generous-Interface-Fashion">About</a>)</em></p>
+
+<h3 id="5-new-entry-points">5. New entry points</h3>
+
+<p>Thematic entry points allow for collection objects to be seen as part of a ‘greater system’. Windhager et al. In <em><a href="https://www.academia.edu/37361155/Visualization_of_Cultural_Heritage_Collection_Data_State_of_the_Art_and_Future_Challenges?email_work_card=view-paper">Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges</a></em> they suggest that collection entry through historical events allows collections to be situated and understood in their historical context. This could lead to onward journeys through historical events, significant world events, movements, or subject areas. Indeed, this is how we hope it will be possible to navigate the collections via the Heritage Connector interface, through ‘topics’  - for example: significant world events, movements or subject areas.</p>
+
+<p>Organizing entry points in the collection through a theme is a well-established museological practice, as is seen with temporary exhibitions and permanent galleries. Entry points into the collection may be manually created “showcases” – as in this <a href="https://www.vam.ac.uk/collections/glass">example from the V&amp;A</a>. Alternatively, they may use an existing datapoint in the collection – as in this example <a href="https://collection.sciencemuseumgroup.org.uk/search/categories/textile-industry">from the Science Museum Group</a>. Usually, entry points are manually selected to provide a reliable and high-quality experience. Knowledge graphs allow this to be automated and scalable to an entire collection, indeed to multiple collections.</p>
+
+<p>Using data-points in the knowledge graph, new entry points into the collection that use associated links and clustering can be created to create thematic, topic, event, geographic and other entry points which would not be possible using the object-level data in the collection catalogue. Knowledge graphs enable the clustering of content, much like when things are physically grouped by subject area in a library, facilitating serendipitous discovery.</p>
+
+<p>Furthermore, when tied to a macro-level view of the collection, clustering of similar objects, people, genres, etc, can both give a general overview to the user immediately but could also allow a dynamic clustering of object records – as demonstrated with literature in <a href="https://artsexperiments.withgoogle.com/ocean-of-books">An Ocean of Books</a> and <a href="https://galaxy.opensyllabus.org/">Open Syllabus</a>. In short, this approach allows for greater understanding of the breadth and depth of the collection in relation to a user’s entry point.</p>
+
+<p>Clustering of objects visually allows overviews of subjects, to see connections between objects and other nodes, and how they relate to one another. In this way, the space between nodes can infer closeness of relationships between people, objects and other data points.</p>
+
+<p>When exploring a moment in history or in a movement, an interface that allows for thematic entry points is more valuable than an object-centred search function. Furthermore, connecting collections to Wikidata allows for things to be associated with events and movements where those are not (usually) held within collections management systems. Designing an interface using the Heritage Connector knowledge graph allows for the collection to be navigated through thematic entry points, defined by and responsive to user’s interests, research needs or even whim.</p>
+
+<p><em>Example: <a href="https://sammlung.wienmuseum.at/en/suggestions/">Wien Museum: Online Sammlung: Suggestions</a></em></p>
+
+<p><em>Example: <a href="http://everynoise.com/engenremap.html">Every noise at once</a></em></p>
+
+<h3 id="6-rich-onward-journeys">6. Rich onward journeys</h3>
+
+<p>At the object level, there is an opportunity to use the knowledge graph to provide a range of rich onward journeys, navigable by the user. Using a knowledge graph to generate connections means they are scalable to entire collections and beyond. The information available could relate to specific collections, and thus proactively surface insights with related content on object, people, organisation and other pages. Linking, in new ways, to other collection material but also to other collections, Wikipedia and third-parties via Wikidata.</p>
+
+<p>Use of Wikidata as a way of linking to related material and surfacing related content is most widely known through the Google Knowledge Panel. The Knowledge Panel is the right-hand panel on Google Search results pages that provides headline information for a given search which frequently draws on Wikidata and Wikipedia for its content. However, there are <a href="https://en.wikipedia.org/wiki/Google_Knowledge_Graph#Lack_of_source_attribution">problems with attribution</a> identified with the Knowledge Panel’s information, and such easy access to headline information may even hinder onward journeys. Knowledge panels surfacing collections information from third-party resources may nonetheless provide valuable context.</p>
+
+<p><em>Example: Google Search Knowledge Panel</em></p>
+
+<p><em>Example: <a href="https://www.royalacademy.org.uk/art-artists#explore-more">Royal Academy of Art: Art and Artists</a></em></p>
+
+<p><em>Example: <a href="https://www.oclc.org/research/publications/2021/oclcresearch-transforming-metadata-into-linked-data.html">CONTENTdm Linked Data Pilot Explorer</a></em> (Image: CC BY)</p>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/explorer-4.png" alt="Prototype interface from CONTENTdm Linked Data Pilot Explorer project showing collection image with right-hand knowledge panel listing contextual intormation such as historical events, people, places and things" /></p>
+
+<h3 id="7-new-forms-of-interface">7. New forms of interface</h3>
+
+<p>New forms of rich interfaces for online collections have been hindered by incompatible collections data. In recent years, there has nonetheless been a growing interest in new forms of “<a href="http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html">generous interface</a>” which were imagined in 2015 as a way to mediating heritage online to reveal ‘the complexity and diversity of cultural collections.’ Previously introduced in a Science Museum Group Digital Lab <a href="https://lab.sciencemuseum.org.uk/exploring-museum-collections-online-some-background-reading-da5a332fa2f8">blog post on exploring museum collections</a>, generous interfaces would enable navigation through cultural heritage collections and moving away from free text search. Five <a href="http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html">key principles introduced</a> include:</p>
+
+<ul>
+  <li>Show first, don’t ask (provide rich overviews without search)</li>
+  <li>Provide samples and clues (using collection content)</li>
+  <li>Show relationships (between collection features)</li>
+  <li>Provide rich primary content (deliver on the promise)</li>
+</ul>
+
+<p>Interfaces are <a href="http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html">usually bespoke</a>, because of data limitations, but automating connections with a knowledge graph could mean scaling almost entire collections. There is a challenge in understanding user needs, in order to match them with all or part of the collection. An <a href="https://pro.europeana.eu/page/issue-11-generous-interfaces#an-evaluation-of-generous-interfaces">evaluation of the principle of generous interfaces</a> by Europeana revealed through user testing that ‘inspiration-seeking digital flaneurs’ (i.e. non experts) found them inspirational and conducive to serendipitous discoveries.</p>
+
+<p><em>Example: <a href="https://www.oliviavane.co.uk/vam">Visualising the Royal Photographic Society collection: Historical photography at the V&amp;A Museum</a></em></p>
+
+<p><em>Example: <a href="http://www.collectionsdivetwmuseums.org.uk/">Tyne &amp; Wear Archives &amp; Museums Collections Dive</a> (<a href="https://mw2016.museumsandtheweb.com/paper/i-dont-know-what-im-looking-for-better-understanding-public-usage-and-behaviours-with-tyne-wear-archives-museums-online-collections/">about</a>)</em></p>
+
+<p><em>Example: <a href="https://witches.is.ed.ac.uk/">Witches, University of Edinburgh</a></em></p>
+
+<p><em>Example: <a href="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem1%20%3Fimage1%20%3Fitem1Label%20%3Fitem2%20%3Fimage2%20%3Fitem2Label%20%3FedgeLabel%20%0AWITH%20%7B%0A%20%20SELECT%20%3Fitem1%20WHERE%20%7B%0A%20%20%20%20VALUES%20%3Fitem1%20%7B%20wd%3AQ28537550%20wd%3AQ430682%20wd%3AQ69562155%20wd%3AQ69561988%20wd%3AQ571%20wd%3AQ155626%20wd%3AQ2664039%20wd%3AQ3560705%20wd%3AQ160236%20wd%3AQ4010432%20wd%3AQ382307%20wd%3AQ42745%20wd%3AQ65966004%20wd%3AQ15221656%20wd%3AQ17494007%20wd%3AQ23402%20wd%3AQ65966300%20wd%3AQ49135%7D%0A%20%20%7D%0A%7D%20AS%20%25item1%0AWITH%20%7B%0A%20%20SELECT%20(%3Fitem1%20AS%20%3Fitem2)%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25item1.%0A%20%20%7D%0A%7D%20AS%20%25item2%0AWHERE%20%7B%0A%20%20INCLUDE%20%25item1.%0A%20%20INCLUDE%20%25item2.%0A%20%20%3Fitem1%20%3Fwdt%20%3Fitem2.%0A%20%20%3Fedge%20wikibase%3AdirectClaim%20%3Fwdt%3B%0A%20%20%20%20%20%20%20%20a%20wikibase%3AProperty.%0A%20%20OPTIONAL%20%7B%20%3Fitem1%20wdt%3AP18%20%3Fimage1.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem2%20wdt%3AP18%20%3Fimage2.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D">Wikidata query spider diagram</a> (<a href="https://www.slideshare.net/JennieChoi2/tags-art-and-ai-oh-my/41">about</a>)</em> (Image CC 0)</p>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/wikidata_graph.png" alt="Wikidata SPARQL query graph showing relationships between paintings, art galleries, films, actors and fictional characters" /></p>
+
+<h2 id="emerging-questions-issues-and-considerations">Emerging questions, issues and considerations</h2>
+
+<p>Among the questions related to user interfaces emerging from this work are:</p>
+
+<ul>
+  <li>How is it best to balance (or not) the needs of experts (who tend toward search) with those of casual users (who tend toward browsing and image-led discovery), and also to ensure interfaces are as simple as possible?</li>
+  <li>How is the fuzziness and uncertainty of the machine-generated links best represented in user interfaces?</li>
+  <li>How can the provenance of the data be presented in user interfaces?</li>
+  <li>Where false positives are uninteresting and/or not useful, should these be able to be flagged by users for removal?</li>
+  <li>Is presenting useful connections and associations the same in different areas, themes and subject domains and if not, how is it best to handle this?</li>
+  <li>If knowledge graphs can create links that make onward journeys through collections possible, what visualisation will best enable this?</li>
+  <li>To whom and in what context is serendipitousness most useful as “<a href="https://www.academia.edu/37361155/Visualization_of_Cultural_Heritage_Collection_Data_State_of_the_Art_and_Future_Challenges?email_work_card=view-paper">thorough user studies have not yet been conducted that would help us to fully understand how specific design decisions influence users’ perception of serendipity</a>” and it is  conceptually complex to model and measure?</li>
+  <li>Where is the greatest value of knowledge-graph-driven interfaces: high-level tasks (macro views), mid-level tasks (filtering) or low-level tasks (object level)?</li>
+</ul>
+
+  </div><a class="u-url" href="/heritageconnector/post/2021/03/11/imagining-interfaces/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+<!--  
+   <data class="u-url" href="/heritageconnector/"></data>
+-->
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        
+<!--
+        <ul class="contact-list">
+          
+        </ul>
+
+-->
+        <p style="font-weight: bold; text-transform: uppercase;">Heritage Connector: Transforming text into data to extract meaning and make connections
+</p> 
+      <ul>
+                    <li>
+                        <a href="https://www.sciencemuseumgroup.org.uk/projects/heritage-connector">Project information</a>
+                    </li>
+                    <li>
+                        <a href="https://thesciencemuseum.github.io/heritageconnector/">Blog homepage</a>
+                    </li>
+                    <li>
+                        <a href="https://www.zotero.org/groups/2439363/heritage_connector">Zotero library</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCzO6jroIvj-JbFuiQ9BpZdQ">YouTube channel</a>
+                    </li>
+        
+                    <li>
+                        <a href="https://github.com/TheScienceMuseum/heritage-connector/">GitHub repository</a>
+                    </li>
+                 
+                </ul> 
+        
+<p class="feed-subscribe">
+          <a href="/heritageconnector/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Blog RSS feed</span>
+          </a>
+        </p>  
+        
+<p class="feed-subscribe">
+          <a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCzO6jroIvj-JbFuiQ9BpZdQ">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>YouTube RSS feed</span>
+          </a>
+        </p>  
+        
+        
+        <p>All content <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution (CC BY)</a> license unless otherwise specified.</p>
+        
+
+      </div>
+      
+      <div class="footer-col">
+        <p>Heritage Connector is a partnership between the <a href="https://www.sciencemuseumgroup.org.uk/">Science Museum Group</a>, <a href="https://www.sas.ac.uk">School of Advanced Study, University of London</a> and the <a href="https://www.vam.ac.uk">V&amp;A</a>.</p>
+        <p>Heritage Connector is funded by the Arts and Humanities Research Council's <a href="https://www.nationalcollection.org.uk">Towards a National Collection: Opening UK Heritage to the World</a> programme (<a href="https://www.ukri.org/what-we-do/our-main-funds-and-areas-of-support/browse-our-areas-of-investment-and-support/towards-a-national-collection-opening-uk-heritage-to-the-world/">AHRC webpage</a>).</p>
+        
+         <ul>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/privacy-policy/">Privacy and cookies</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/terms-and-conditions/">Terms and conditions</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/web-accessibility/">Web accessibility</a></li>
+        </ul> 
+        
+      
+      
+      
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+    
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Knowledge Graphs, Machine Learning and Heritage Collections | Heritage Connector Blog</title>
+<meta name="generator" content="Jekyll v3.9.4" />
+<meta property="og:title" content="Knowledge Graphs, Machine Learning and Heritage Collections" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Kalyan Dutia" />
+<meta property="og:description" content="Kalyan Dutia" />
+<link rel="canonical" href="https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/" />
+<meta property="og:url" content="https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/" />
+<meta property="og:site_name" content="Heritage Connector Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-11-06T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Knowledge Graphs, Machine Learning and Heritage Collections" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-11-06T00:00:00+00:00","datePublished":"2020-11-06T00:00:00+00:00","description":"Kalyan Dutia","headline":"Knowledge Graphs, Machine Learning and Heritage Collections","mainEntityOfPage":{"@type":"WebPage","@id":"https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/"},"url":"https://thesciencemuseum.github.io/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/heritageconnector/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://thesciencemuseum.github.io/heritageconnector/feed.xml" title="Heritage Connector Blog" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP2L24V');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP2L24V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/heritageconnector/">Heritage Connector Blog</a></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Knowledge Graphs, Machine Learning and Heritage Collections</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2020-11-06T00:00:00+00:00" itemprop="datePublished">
+        6 November 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><strong>Kalyan Dutia</strong></p>
+
+<p>As part of the <a href="https://www.sciencemuseumgroup.org.uk/project/heritage-connector/">Heritage Connector project</a> we’re seeking to create new links between collection items and collections at scale by making use of existing metadata and mining structured data from text, as well as using Wikidata as a centralised point of connection between collections. These challenges require a set of technologies beyond those found in existing collections management systems. This blog post describes exactly which technologies we’re using and how we’re using them.</p>
+
+<p>If you’re familiar with knowledge graphs, feel free to skip to <a href="#creating-new-links">how we’re creating new links</a>.</p>
+
+<hr />
+
+<p><strong>Contents:</strong></p>
+
+<ul>
+  <li><a href="#knowledge-graphs">Knowledge Graphs</a></li>
+  <li><a href="#creating-new-links">Creating New Links</a>
+    <ul>
+      <li><a href="#easy-wins-existing-ids">Easy Wins (Existing IDs)</a></li>
+      <li><a href="#disambiguation">Disambiguation</a></li>
+      <li><a href="#named-entity-recognition-ner">Named Entity Recognition (NER)</a></li>
+      <li><a href="#results-lessons-and-next-steps">Results, Lessons and Next Steps</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="knowledge-graphs">Knowledge Graphs</h2>
+
+<p>Knowledge graphs were popularised by Google in their 2012 blog post <a href="https://blog.google/products/search/introducing-knowledge-graph-things-not/">Introducing the Knowledge Graph: things, not strings</a>, in which they described how data structured in a graph (rather than a table) can help users get better responses to their queries, retrieve context around a specific object, and even discover new serendipitous connections between objects. These things can be achieved using Knowledge Graphs as they let you create new links (<em>relations</em>) between items (<em>entities</em>) without worrying about creating specific columns or tables to hold information.</p>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/1-relational-db-vs-knowledge-graph.png" alt="Representation of Steve Jobs' legacy in complex relational database format (left) and simpler knowledge graph format (right)" />
+<span class="caption">Representation of Steve Jobs’ legacy in complex relational database format (left) and simpler knowledge graph format (right)</span></p>
+
+<p>The knowledge graph is what we refer to when we talk about the ‘Heritage Connector’ itself: one place where all connections (from 13 data sources and counting) between the internal tables that make up our digital collection live, and where we can add new entities and relations as we discover them.</p>
+
+<p>The specific flavour of knowledge graph we’re using called a triple store, because every relationship is expressed in three parts: a <em>subject</em>, a <em>predicate</em> and an <em>object</em>. This representation has been chosen because any fact can be represented as a triple at its most granular level. For example, we store “Marie Stopes was born in Edinburgh” as (<code class="language-plaintext highlighter-rouge">marie_stopes</code>, <code class="language-plaintext highlighter-rouge">born_in</code>, <code class="language-plaintext highlighter-rouge">edinburgh</code>), and “Rover ‘Safety’ Bicycle was designed in 1885” as (<code class="language-plaintext highlighter-rouge">rover_safety_bicycle</code>, <code class="language-plaintext highlighter-rouge">designed_in</code>, <code class="language-plaintext highlighter-rouge">1885</code>).</p>
+
+<p>To make our graph interoperable with other data sources we’re building this graph to abide by <a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data</a> standards, namely:</p>
+
+<ol>
+  <li>Using HTTP URIs (web addresses) so that entities can be looked up</li>
+  <li>Providing useful information, where we can <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, when these entities are looked up</li>
+  <li>Refer to other things, external to the collection, by their HTTP URIs</li>
+</ol>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/2-triples.png" alt="Visualisation of text, triples, and linked data." />
+<span class="caption">Comparing raw text, semantic triples and triples that meet Linked Data requirements</span></p>
+
+<h2 id="creating-new-links">Creating New Links</h2>
+
+<p>We’re building and evaluating three main methods to create links internally and to Wikidata:</p>
+
+<ol>
+  <li>easy wins: converting existing URLs and IDs in the collection to Wikidata IDs,</li>
+  <li>machine learning for creating new links between the SMG collection and Wikidata, and</li>
+  <li>named entity recognition (NER) for creating internal links: adding new entities to the graph from free text fields.</li>
+</ol>
+
+<p>It’s important to note at this point that we’re not aiming to link each and every record up to Wikidata - that would be impossible, as many SMG people, organisations and objects will not have Wikidata referents. Instead, our aim is to use information from Wikidata through the creation of links where possible, and focus on creating structure in the Heritage Connector that we can contribute back to Wikidata at a later date.</p>
+
+<h3 id="easy-wins-existing-ids">Easy Wins (Existing IDs)</h3>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/3-easy-wins.png" alt="Steps in the process to generate Wikidata links from existing IDs and URLs found in the Collection." />
+<span class="caption">Steps in the process to generate Wikidata links from existing IDs and URLs found in the Collection.</span></p>
+
+<p>Around 10,000 records <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> in the SMG collection have had IDs or URLs from databases like <a href="https://www.oxforddnb.com/">Oxford Dictionary of National Biography</a>, <a href="https://www.gracesguide.co.uk/Main_Page">Grace’s Guide</a> or Wikipedia added to them in the museum’s collection management system (Mimsy). Wikidata holds references to external databases using External IDs <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>, making it straightforward to convert an external reference to a Wikidata ID. For example, a <a href="https://query.wikidata.org/#SELECT%20%3Fitem%20%3FitemLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP3074%20%22Isambard_Kingdom_Brunel%22.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%0A%20%20%7D%0A%7D">SPARQL query</a> can return the Wikidata page that has the Grace’s Guide ID <code class="language-plaintext highlighter-rouge">Isambard_Kingdom_Brunel</code>.</p>
+
+<p>We’ve found that there’s one more step to ensure these connections are accurate. As well as an ID that relates to the record, curators regularly add IDs or URLs to <em>related</em> entities in the Notes field of a collection item, e.g. someone’s father or company. To ensure that each link is accurate we’ve added an extra step to the process which checks that the labels and significant dates (e.g. birth/death date) are similar for both the SMG and Wikidata entity if they are both present.</p>
+
+<h3 id="disambiguation">Disambiguation</h3>
+
+<p>Broadly speaking, the disambiguator is a tool which learns to distinguish whether an internal (SMG) record and a Wikidata record refer to the same real-world entity. Using machine learning this enables the creation of links between internal SMG records and Wikidata records faster than any human could, with a measurable accuracy.</p>
+
+<p>There are a few deep learning <sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup> based methods <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup> <sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup> which use tools like knowledge graph and word embeddings to perform this disambiguation. But they tend to require large numbers of data to perform well (in the order of thousands), and knowledge graph embeddings require a graph representation which captures some ‘structure’ of the information (which we didn’t have, due to thin records). For this reason we chose to use a <em>classical machine learning</em> method, which requires much less data and computational power.</p>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/4-disambiguation.png" alt="Illustration of Disambiguation process" />
+<span class="caption">Illustration of Disambiguation process. Colours below refer to the coloured blocks on this figure.</span></p>
+
+<p>The disambiguator works as above, with the steps <em>Candidate Generation</em> and <em>Classification</em> as follows.</p>
+
+<p><strong>Candidate Generation</strong></p>
+
+<ol>
+  <li>Select an <span style="color:#437f72">SMG record</span> to find a Wikidata match for</li>
+  <li>Search the label/title of this record on Wikidata <sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup> returning the <span style="color:#AB5C1C"><em>N</em> top matches</span>, where <em>N</em> is a value that has been chosen beforehand (we chose 20).</li>
+</ol>
+
+<p><strong>Classification</strong></p>
+
+<ol>
+  <li>Compare each field in the <span style="color:#437f72">SMG record</span> to its corresponding field in each <span style="color:#AB5C1C">Wikidata record</span> using the Heritage Connector’s similarity function which can compare strings, numbers, dates, places and entity types. This will produce <em>N</em> vectors, each containing <em>F</em> feature similarities between 0 and 1.</li>
+  <li>Run the vectors through a machine learning classifier, for either training or inference. A training run will produce a disambiguator capable of operating on a dataset. An inference run will predict whether a pair of unseen records represent the same real-world entity, returning a <span style="color:#397AAC">confidence value</span> for the link.</li>
+</ol>
+
+<h3 id="named-entity-recognition-ner">Named Entity Recognition (NER)</h3>
+
+<p>NER is a natural language processing (NLP) technique which aims to find words (<em>entities</em>) in a piece of text which are of a number of predetermined types. It does this by learning both what these entities of a type tend to look like and where they tend to appear in a sentence.</p>
+
+<p>In the example below NER has been run on the SMG description of the Difference Engine No.2 to detect people, dates, organisations and works of art.</p>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/charts-knowledge-graphs-ml-post/5-ner.png" alt="Illustration of Named Entity Recognition highlighted in text" />
+<span class="caption">Example of Named Entity Recognition on the SMG description for Difference Engine No. 2</span></p>
+
+<p>By training an NER model on types of entities that we’d want to add to the Heritage Connector, for example people, places, historical events or movements, we have a method to add new typed entities to the knowledge graph from unstructured text.</p>
+
+<p>Robustly extracting relations between entities is harder: existing methods for relation extraction <sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup> haven’t proved reliable in tests on our data. This is mainly due to their wide-domain application. Later on in the project we plan to research methods for reliably extracting relations from text and aligning them with RDF predicates for application in the heritage domain.</p>
+
+<h3 id="results-lessons-and-next-steps">Results, Lessons and Next Steps</h3>
+
+<p>Currently (November 2020) in the project we’ve just finished building mechanisms to load in tabular data to a knowledge graph, load links from external IDs, and the disambiguator. We’ve tested the disambiguator on people, organisations and objects.</p>
+
+<p>Some of the things we’ve learnt so far are:</p>
+
+<ul>
+  <li>Aligning specific free-text fields to entities (in our case collection item types and locations) is important, but can take a while using existing tools such as OpenRefine. Faster and more robust methods therefore exist in the Heritage Connector.</li>
+  <li>You can expect varying success disambiguating records with Wikidata depending on their type, due to the nature of the records in Wikidata. We’ve had most success with people and organisations and expect that we’ll be able to find Wikidata links for a much smaller proportion of objects as they are less likely to exist on Wikidata.</li>
+  <li>Although we’ve presented the steps of creating a linked knowledge graph as sequential, in reality they work better in a kind of loop. As you use NER to create more entities and relations in the graph, the effectiveness of the disambiguator will increase.</li>
+  <li>Where possible it’s best not to bulk query Wikidata, especially through SPARQL. We’ve circumvented this by creating an Elasticsearch index we can use to perform text searches on Wikidata in a faster and more stable way. We’ve open-sourced the tool we used to do this as <a href="https://github.com/TheScienceMuseum/elastic-wikidata">elastic-wikidata</a>.</li>
+</ul>
+
+<p>And next, we plan to:</p>
+
+<ul>
+  <li>Start looking at how knowledge graphs enable new forms of interaction and discovery in practice.</li>
+  <li>Build and test a robust NER method for the heritage domain. We’ll open source any heritage-specific models that we create using the popular <a href="https://spacy.io/">Spacy</a> NLP library so they can be used for any NLP applications in the heritage sector.</li>
+  <li>Write more blog posts!</li>
+</ul>
+
+<hr />
+
+<p><strong>Footnotes</strong></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Wikidata helps with this <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Mainly people and organisations, not objects. Disambiguating objects is the main challenge we’ll have due to the broadness of the category ‘object’ and our lack of training data. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>We’ve created <a href="https://www.wikidata.org/wiki/Property:P8694">one for the Science Museum Group for this project</a>, and would recommend the same practice for all heritage organisations looking to link to Wikidata. An example of its use is <a href="https://www.wikidata.org/wiki/Q58952378">on this Hindu Astrolabe</a>. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>A class of machine learning methods which use ‘deep’ neural networks with multiple layers. See <a href="https://en.wikipedia.org/wiki/Deep_learning">Wikipedia</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p><a href="https://core.ac.uk/download/pdf/211161924.pdf">Farag, M., 2019. <em>Entity Matching and Disambiguation Across Multiple Knowledge Graphs</em></a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6" role="doc-endnote">
+      <p><a href="http://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf">Mudgal, S. et al., 2018, May. Deep learning for entity matching: A design space exploration. <em>In Proceedings of the 2018 International Conference on Management of Data (pp. 19-34).</em></a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7" role="doc-endnote">
+      <p>We created the <a href="https://github.com/TheScienceMuseum/elastic-wikidata">elastic-wikidata</a> tool to load the labels, aliases, descriptions and types a useful subset of Wikidata into our own Elasticsearch index to speed up text searches. <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:8" role="doc-endnote">
+      <p><a href="http://semantic-web-journal.org/system/files/swj1379.pdf">Gangemi, A. et al., 2017. Semantic web machine reading with FRED. <em>Semantic Web, 8</em>(6), pp.873-893.</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><a class="u-url" href="/heritageconnector/post/2020/11/06/knowledge-graphs-machine-learning-and-heritage-collections/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+<!--  
+   <data class="u-url" href="/heritageconnector/"></data>
+-->
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        
+<!--
+        <ul class="contact-list">
+          
+        </ul>
+
+-->
+        <p style="font-weight: bold; text-transform: uppercase;">Heritage Connector: Transforming text into data to extract meaning and make connections
+</p> 
+      <ul>
+                    <li>
+                        <a href="https://www.sciencemuseumgroup.org.uk/projects/heritage-connector">Project information</a>
+                    </li>
+                    <li>
+                        <a href="https://thesciencemuseum.github.io/heritageconnector/">Blog homepage</a>
+                    </li>
+                    <li>
+                        <a href="https://www.zotero.org/groups/2439363/heritage_connector">Zotero library</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCzO6jroIvj-JbFuiQ9BpZdQ">YouTube channel</a>
+                    </li>
+        
+                    <li>
+                        <a href="https://github.com/TheScienceMuseum/heritage-connector/">GitHub repository</a>
+                    </li>
+                 
+                </ul> 
+        
+<p class="feed-subscribe">
+          <a href="/heritageconnector/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Blog RSS feed</span>
+          </a>
+        </p>  
+        
+<p class="feed-subscribe">
+          <a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCzO6jroIvj-JbFuiQ9BpZdQ">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>YouTube RSS feed</span>
+          </a>
+        </p>  
+        
+        
+        <p>All content <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution (CC BY)</a> license unless otherwise specified.</p>
+        
+
+      </div>
+      
+      <div class="footer-col">
+        <p>Heritage Connector is a partnership between the <a href="https://www.sciencemuseumgroup.org.uk/">Science Museum Group</a>, <a href="https://www.sas.ac.uk">School of Advanced Study, University of London</a> and the <a href="https://www.vam.ac.uk">V&amp;A</a>.</p>
+        <p>Heritage Connector is funded by the Arts and Humanities Research Council's <a href="https://www.nationalcollection.org.uk">Towards a National Collection: Opening UK Heritage to the World</a> programme (<a href="https://www.ukri.org/what-we-do/our-main-funds-and-areas-of-support/browse-our-areas-of-investment-and-support/towards-a-national-collection-opening-uk-heritage-to-the-world/">AHRC webpage</a>).</p>
+        
+         <ul>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/privacy-policy/">Privacy and cookies</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/terms-and-conditions/">Terms and conditions</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/web-accessibility/">Web accessibility</a></li>
+        </ul> 
+        
+      
+      
+      
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+    
+  </div>
+
+</footer>
+</body>
+
+</html>

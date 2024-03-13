@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Timeline Interface Demonstrator | Heritage Connector Blog</title>
+<meta name="generator" content="Jekyll v3.9.4" />
+<meta property="og:title" content="Timeline Interface Demonstrator" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="On 19 November 2021, the Heritage Connector project held a one-day hackathon in partnership with Cogapp." />
+<meta property="og:description" content="On 19 November 2021, the Heritage Connector project held a one-day hackathon in partnership with Cogapp." />
+<link rel="canonical" href="https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Timeline/" />
+<meta property="og:url" content="https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Timeline/" />
+<meta property="og:site_name" content="Heritage Connector Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-12-04T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Timeline Interface Demonstrator" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-12-04T00:00:00+00:00","datePublished":"2021-12-04T00:00:00+00:00","description":"On 19 November 2021, the Heritage Connector project held a one-day hackathon in partnership with Cogapp.","headline":"Timeline Interface Demonstrator","mainEntityOfPage":{"@type":"WebPage","@id":"https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Timeline/"},"url":"https://thesciencemuseum.github.io/heritageconnector/post/2021/12/04/Timeline/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/heritageconnector/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://thesciencemuseum.github.io/heritageconnector/feed.xml" title="Heritage Connector Blog" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP2L24V');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP2L24V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/heritageconnector/">Heritage Connector Blog</a></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Timeline Interface Demonstrator</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2021-12-04T00:00:00+00:00" itemprop="datePublished">
+        4 December 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>On 19 November 2021, the <a href="https://www.sciencemuseumgroup.org.uk/project/heritage-connector/">Heritage Connector</a> project held a one-day <a href="https://thesciencemuseum.github.io/heritageconnector/post/2021/12/05/Hackathon-Demos/">hackathon</a> in partnership with <a href="https://www.cogapp.com">Cogapp</a>.</p>
+
+<p>For our project <a href="https://research.sas.ac.uk/search/student/1304/ms-rhiannon-lewis/">Rhiannon Lewis</a> and I (<a href="https://st-ck.net">John Stack</a>), worked with <a href="http://timeline.knightlab.com">Timeline JS</a> to build and interactive timelines for events and people in the knowledge graph.</p>
+
+<p><img src="https://thesciencemuseum.github.io/heritageconnector/post_files/Timeline_Screenshot.png" alt="Screengrab of browser window showing interactive timeline interface" /></p>
+
+<p>The <a href="https://doi.org/10.5281/zenodo.5752010">hc_dump_latest.csv</a> file was wrangled in <a href="https://www.barebones.com/products/bbedit/">BBEdit</a> to extract all the Wikidata QIDs.</p>
+
+<p>These were then processed in <a href="https://openrefine.org">OpenRefine</a> to add the following Wikidata P (property) values for each of the list of QIDs:</p>
+
+<ul>
+  <li>Date of birth</li>
+  <li>Date of death</li>
+  <li>Start time</li>
+  <li>End time</li>
+  <li>Announcement date</li>
+  <li>Point in time</li>
+  <li>Publication date</li>
+  <li>Image (filename of any associated images)</li>
+</ul>
+
+<p>The resulting data was then manipulated in OpenRefine into the required structure for Timeline JS, links to the <a href="http://heritageconnector.sciencemuseum.org.uk/6_metadata_explorer/index.html">Heritage Connector Metadata Explorer</a> added, and then converted into Google Sheets: one for <a href="https://docs.google.com/spreadsheets/d/1LHMepViVVuw_3_iYHRM0cyEAocUhpsDY61gOb1t8CB0/">people</a> and one for <a href="https://docs.google.com/spreadsheets/d/1AnA4JKLCTmmvfieTNcBmvPT3ylRKWZXBeD178TDD8sk/">events</a>.</p>
+
+<p>These were then linked to Timeline JS to give the two timelines:</p>
+
+<ul>
+  <li><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1AnA4JKLCTmmvfieTNcBmvPT3ylRKWZXBeD178TDD8sk&amp;font=Default&amp;lang=en&amp;initial_zoom=7&amp;height=750&amp;timenav_height=550&amp;timenav_position=bottom">People timeline</a></li>
+  <li><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1AnA4JKLCTmmvfieTNcBmvPT3ylRKWZXBeD178TDD8sk&amp;font=Default&amp;lang=en&amp;initial_zoom=7&amp;height=750&amp;timenav_height=550&amp;timenav_position=bottom">Events timeline</a></li>
+</ul>
+
+<p>The performance of the timeline is quite slow as the maximum number of points on the timeline is recommended to be 200 and each of our timelines contains several thousand entries, which is itself only a tiny fraction of the number of people and events in the whole knowledge graph.</p>
+
+<div class="embed-youtube">
+    <iframe src="https://www.youtube-nocookie.com/embed/Qv7cIdKRxeI" width="560" height="315" allowfullscreen="" title="Demonstration video of Heritage Connector timelines">
+    </iframe>
+</div>
+
+
+  </div><a class="u-url" href="/heritageconnector/post/2021/12/04/Timeline/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+<!--  
+   <data class="u-url" href="/heritageconnector/"></data>
+-->
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        
+<!--
+        <ul class="contact-list">
+          
+        </ul>
+
+-->
+        <p style="font-weight: bold; text-transform: uppercase;">Heritage Connector: Transforming text into data to extract meaning and make connections
+</p> 
+      <ul>
+                    <li>
+                        <a href="https://www.sciencemuseumgroup.org.uk/projects/heritage-connector">Project information</a>
+                    </li>
+                    <li>
+                        <a href="https://thesciencemuseum.github.io/heritageconnector/">Blog homepage</a>
+                    </li>
+                    <li>
+                        <a href="https://www.zotero.org/groups/2439363/heritage_connector">Zotero library</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCzO6jroIvj-JbFuiQ9BpZdQ">YouTube channel</a>
+                    </li>
+        
+                    <li>
+                        <a href="https://github.com/TheScienceMuseum/heritage-connector/">GitHub repository</a>
+                    </li>
+                 
+                </ul> 
+        
+<p class="feed-subscribe">
+          <a href="/heritageconnector/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Blog RSS feed</span>
+          </a>
+        </p>  
+        
+<p class="feed-subscribe">
+          <a href="https://www.youtube.com/feeds/videos.xml?channel_id=UCzO6jroIvj-JbFuiQ9BpZdQ">
+            <svg class="svg-icon orange">
+              <use xlink:href="/heritageconnector/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>YouTube RSS feed</span>
+          </a>
+        </p>  
+        
+        
+        <p>All content <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution (CC BY)</a> license unless otherwise specified.</p>
+        
+
+      </div>
+      
+      <div class="footer-col">
+        <p>Heritage Connector is a partnership between the <a href="https://www.sciencemuseumgroup.org.uk/">Science Museum Group</a>, <a href="https://www.sas.ac.uk">School of Advanced Study, University of London</a> and the <a href="https://www.vam.ac.uk">V&amp;A</a>.</p>
+        <p>Heritage Connector is funded by the Arts and Humanities Research Council's <a href="https://www.nationalcollection.org.uk">Towards a National Collection: Opening UK Heritage to the World</a> programme (<a href="https://www.ukri.org/what-we-do/our-main-funds-and-areas-of-support/browse-our-areas-of-investment-and-support/towards-a-national-collection-opening-uk-heritage-to-the-world/">AHRC webpage</a>).</p>
+        
+         <ul>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/privacy-policy/">Privacy and cookies</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/terms-and-conditions/">Terms and conditions</a></li>
+              <li><a href="https://www.sciencemuseumgroup.org.uk/web-accessibility/">Web accessibility</a></li>
+        </ul> 
+        
+      
+      
+      
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+    
+  </div>
+
+</footer>
+</body>
+
+</html>
